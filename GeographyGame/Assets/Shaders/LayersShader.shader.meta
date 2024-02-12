@@ -2,7 +2,14 @@ fileFormatVersion: 2
 guid: e3879abac10561543968da668ac35229
 ShaderImporter:
   externalObjects: {}
-  defaultTextures: []
+  defaultTextures:
+  - _CountriesTex: {instanceID: 0}
+  - _CountriesBordersMask: {fileID: 2800000, guid: a57ccba761260694a99e7975e1ddc4d5, type: 3}
+  - _NormalTex: {instanceID: 0}
+  - _OceanGridTex: {instanceID: 0}
+  - _SelectionTexCountries: {fileID: 2800000, guid: 60de50cd5ad6eec4fa59915c881a68b9, type: 3}
+  - _SelectionTexOceans: {fileID: 2800000, guid: 60e5ca2bb9a6cfc48ad5a0495c771d02, type: 3}
+  - _texcoord: {instanceID: 0}
   nonModifiableTextures: []
   userData: 
   assetBundleName: 
