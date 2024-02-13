@@ -60,7 +60,9 @@ public class WorldMapManager : MonoBehaviour
         get => _currentState;
         set
         {
+            
             ChangeAllCountriesMaterials(EarthMaterialsByTypeOnCountries[(int)value]);
+            Debug.Log("State Function");
 
             switch (value)
             {
