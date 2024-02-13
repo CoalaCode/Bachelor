@@ -4,6 +4,7 @@ using UnityEngine;
 using System;
 using System.IO;
 using UnityEngine.EventSystems;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class WorldMapManager : MonoBehaviour
 {
@@ -28,6 +29,8 @@ public class WorldMapManager : MonoBehaviour
     [SerializeField] public List<Material> EarthMaterialsByTypeOnCountries;
     [Header("Prefab for Select Point on Earth")]
     [SerializeField] GameObject UnitPoint;
+
+    public XRRayInteractor rayInteractor;
 
     public Country CurrentHoveredCountry;
     private Country _currentSelectedCountry;
@@ -161,6 +164,7 @@ public class WorldMapManager : MonoBehaviour
     }
     void Update()
     {
+        /*
         if (Input.GetKeyDown(KeyCode.F1)) CurrentState = State.Earth;
         if (Input.GetKeyDown(KeyCode.F2)) CurrentState = State.Politic;
         if (Input.GetKeyDown(KeyCode.F3)) CurrentState = State.Population;
@@ -168,20 +172,22 @@ public class WorldMapManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F5)) CurrentState = State.Transport;
         if (Input.GetKeyDown(KeyCode.F6)) CurrentState = State.Disaster;
         if (Input.GetKeyDown(KeyCode.F7)) CurrentState = State.Climat;
+        */
 
         SelectCountry();
     }
 
     void SelectCountry()
     {
-        PlaceUnitPoint();
-
+        Debug.Log("SelectMethod");
+        //PlaceUnitPoint();
+        Debug.Log("Bla");
         RaycastHit hit;
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        //Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-        if (Physics.Raycast(ray, out hit, 1000))
+        if (rayInteractor.TryGetCurrent3DRaycastHit(out hit))
         {
-
+            Debug.Log("RayHit");
             if (hit.collider.gameObject == null) return;
             Country tempCountry = countries.Find(X => X.gameObject == hit.collider.gameObject);
             if (tempCountry != null)
@@ -204,6 +210,7 @@ public class WorldMapManager : MonoBehaviour
         }
         else
         {
+            Debug.Log("NoHit");
             if (CurrentHoveredCountry != null) CurrentHoveredCountry.Hovered = false;
             CurrentHoveredCountry = null;
         }

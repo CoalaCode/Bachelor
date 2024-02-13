@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class UnitEarth : MonoBehaviour
 {
-
+    int rotationSpeed = 10;
     private void Update()
     {
-        transform.Rotate(Vector3.back, Time.deltaTime);
+        transform.Rotate(Vector3.back, rotationSpeed * Time.deltaTime);
     }
 }
