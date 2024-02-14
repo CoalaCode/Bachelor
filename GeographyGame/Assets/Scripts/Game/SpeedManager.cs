@@ -71,7 +71,7 @@ public class SpeedManager : MonoBehaviour
                 rotationCoroutine = StartCoroutine(RotateEarth(10f));
                 break;
             case Speed.UltraFast:
-                rotationCoroutine = StartCoroutine(RotateEarth(100f));
+                rotationCoroutine = StartCoroutine(RotateEarth(50f));
                 break;
         }
     }
@@ -80,7 +80,7 @@ public class SpeedManager : MonoBehaviour
     {
         while (true)
         {
-            earth.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+            earth.Rotate(Vector3.back, rotationSpeed * Time.deltaTime);
             yield return null;
         }
     }
