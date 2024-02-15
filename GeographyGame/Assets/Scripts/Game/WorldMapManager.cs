@@ -30,7 +30,7 @@ public class WorldMapManager : MonoBehaviour
     [Header("Prefab for Select Point on Earth")]
     [SerializeField] GameObject UnitPoint;
 
-    public XRRayInteractor rayInteractor;
+    [SerializeField] XRRayInteractor rayInteractor;
 
     public Country CurrentHoveredCountry;
     private Country _currentSelectedCountry;
@@ -179,15 +179,15 @@ public class WorldMapManager : MonoBehaviour
 
     void SelectCountry()
     {
-        Debug.Log("SelectMethod");
+        //Debug.Log("SelectMethod");
         //PlaceUnitPoint();
-        Debug.Log("Bla");
+        //Debug.Log("Bla");
         RaycastHit hit;
         //Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
         if (rayInteractor.TryGetCurrent3DRaycastHit(out hit))
         {
-            Debug.Log("RayHit");
+            //Debug.Log("RayHit");
             if (hit.collider.gameObject == null) return;
             Country tempCountry = countries.Find(X => X.gameObject == hit.collider.gameObject);
             if (tempCountry != null)
