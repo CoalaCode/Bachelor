@@ -210,7 +210,7 @@ public class WorldMapManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("NoHit");
+            //Debug.Log("NoHit");
             if (CurrentHoveredCountry != null) CurrentHoveredCountry.Hovered = false;
             CurrentHoveredCountry = null;
         }

@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
     
     public List<TMP_Text> countryTexts;
+    public List<Image> checkmarks;
     [SerializeField] XRRayInteractor rayInteractor;
 
     private GameObject[] countriesGameObjects;
@@ -34,6 +35,11 @@ public class GameManager : MonoBehaviour
         DisplayCurrentCountry();
     }
 
+    private void Update()
+    {
+        OnCountryClicked();
+    }
+
     void SelectRandomCountries()
     {
         int index;
@@ -50,12 +56,12 @@ public class GameManager : MonoBehaviour
     {
         for (int i = 0; i < countryList.Count; i++)
         {
-            Debug.Log("Hello");
+            //Debug.Log("Hello");
             countryTexts[i].text = countryList[i].name;
         }
     }
 
-    public void OnCountryClicked(string clickedCountry)
+    public void OnCountryClicked()
     {
         RaycastHit hit;
         //Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -67,11 +73,16 @@ public class GameManager : MonoBehaviour
             GameObject tempCountry = hit.collider.gameObject;
             if (tempCountry != null)
             {
+                //Debug.Log("Hallo");
                 for (int i = 0; i < countryList.Count; i++)
                 {
-                    if (tempCountry == countryList[i])
+                    if (tempCountry.name.Equals(countryList[i].name))
                     {
+                        
+                        checkmarks[i].color = Color.green;
                         correctGuesses++;
+                        Debug.Log(checkmarks[i].name);
+
                     }
                     else
                     {
