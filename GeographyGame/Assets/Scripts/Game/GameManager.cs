@@ -9,12 +9,13 @@ public class GameManager : MonoBehaviour
     
     public List<TMP_Text> countryTexts;
     public List<Image> checkmarks;
-    public TMP_Text gameOverText;
+    public GameObject gameOverText;
     //public Button restartGameBtn;
     [SerializeField] XRRayInteractor rayInteractor;
 
     private GameObject[] countriesGameObjects;
     private List<GameObject> countryList;
+    private List<GameObject> guessedCountriesList;
     private string countryName;
     private string currentCountry;
     private int correctGuesses = 0;
@@ -34,6 +35,7 @@ public class GameManager : MonoBehaviour
         }
         */
         countryList = new List<GameObject>();
+        guessedCountriesList = new List<GameObject>();
         SelectRandomCountries();
         DisplayCurrentCountry();
     }
@@ -82,13 +84,14 @@ public class GameManager : MonoBehaviour
                 //Debug.Log("Hallo");
                 for (int i = 0; i < countryList.Count; i++)
                 {
-                    if (tempCountry.name.Equals(countryList[i].name))
+                    if (tempCountry.name.Equals(countryList[i].name) && !guessedCountriesList.Contains(tempCountry))
                     {
                         
                         checkmarks[i].color = Color.green;
                         correctGuesses++;
                         Debug.Log(checkmarks[i].name);
                         Debug.Log(correctGuesses);
+                        guessedCountriesList.Add(countryList[i]);
 
                     }
                     else
@@ -107,6 +110,7 @@ public class GameManager : MonoBehaviour
     public void RestartGame()
     {
         correctGuesses = 0;
+        gameOverText.SetActive(false);
         countryList.Clear();
         SelectRandomCountries();
         DisplayCurrentCountry();
@@ -120,7 +124,7 @@ public class GameManager : MonoBehaviour
     {
         if(correctGuesses == 10)
         {
-            gameOverText.color = Color.green;
+            gameOverText.SetActive(true);
             //gameOverText.color.a = 1.0f;
         }
     }
