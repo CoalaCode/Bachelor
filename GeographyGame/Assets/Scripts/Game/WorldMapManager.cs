@@ -24,7 +24,13 @@ public class WorldMapManager : MonoBehaviour
     [SerializeField] public List<string> ClimatZonesNames;
     [Header("Use this file with void SetNames()")]
     [SerializeField] public TextAsset CountryNamesJSONFile;
-    [SerializeField] public TextAsset CountryPopulationJSonFile;
+    //[SerializeField] public TextAsset CountryPopulationJSonFile;
+    [SerializeField] public TextAsset CountryCapitalJSONFile;
+    [SerializeField] public TextAsset CountryPopulationJSONFile;
+    [SerializeField] public TextAsset CountrySizeJSONFile;
+    [SerializeField] public TextAsset CountryLanguageJSONFile;
+    [SerializeField] public TextAsset CountryCurrencyJSONFile;
+    [SerializeField] public TextAsset CountryGDPJSONFile;
     [Header("Use this file with void SetPopulationAndWealth()")]
     [SerializeField] public List<Material> EarthMaterialsByTypeOnCountries;
     [Header("Prefab for Select Point on Earth")]
@@ -145,8 +151,14 @@ public class WorldMapManager : MonoBehaviour
 
 
         HideMap();
-
-
+        SetNames();
+        //SetPopulationAndWealth();
+        SetCapital();
+        SetPopulation();
+        SetSize();
+        SetLanguage();
+        SetCurrency();
+        SetGDP();
     }
 
 
@@ -259,10 +271,10 @@ public class WorldMapManager : MonoBehaviour
             item.ColorCountry = UnityEngine.Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
         }
     }
+    
     [ContextMenu("SetNames")]
     void SetNames()
     {
-        ;
         string[] nms = CountryNamesJSONFile.text.Split('}');
         foreach (var str in nms)
 
@@ -274,6 +286,8 @@ public class WorldMapManager : MonoBehaviour
             }
 
     }
+
+    /*
     [ContextMenu("SetPopulation")]
     void SetPopulationAndWealth()
     {
@@ -296,6 +310,98 @@ public class WorldMapManager : MonoBehaviour
         }
 
     }
+    */
+
+    [ContextMenu("SetCapital")]
+    void SetCapital()
+    {
+        string[] nms = CountryCapitalJSONFile.text.Split('}');
+        foreach (var str in nms)
+
+
+            foreach (var item in countries)
+            {
+                if (str.Substring(11, 2) == item.name) item.Capital = str.Substring(25, str.Length - 26);
+                item.meshRenderer = item.GetComponent<MeshRenderer>();
+            }
+
+    }
+
+    [ContextMenu("SetPopulation")]
+    void SetPopulation()
+    {
+        string[] nms = CountryPopulationJSONFile.text.Split('}');
+        foreach (var str in nms)
+
+
+            foreach (var item in countries)
+            {
+                if (str.Substring(11, 2) == item.name) item.Population = str.Substring(25, str.Length - 26);
+                item.meshRenderer = item.GetComponent<MeshRenderer>();
+            }
+
+    }
+
+    [ContextMenu("SetSize")]
+    void SetSize()
+    {
+        string[] nms = CountrySizeJSONFile.text.Split('}');
+        foreach (var str in nms)
+
+
+            foreach (var item in countries)
+            {
+                if (str.Substring(11, 2) == item.name) item.Size = str.Substring(25, str.Length - 26);
+                item.meshRenderer = item.GetComponent<MeshRenderer>();
+            }
+
+    }
+
+    [ContextMenu("SetLanguage")]
+    void SetLanguage()
+    {
+        string[] nms = CountryLanguageJSONFile.text.Split('}');
+        foreach (var str in nms)
+
+
+            foreach (var item in countries)
+            {
+                if (str.Substring(11, 2) == item.name) item.Language = str.Substring(25, str.Length - 26);
+                item.meshRenderer = item.GetComponent<MeshRenderer>();
+            }
+
+    }
+
+    [ContextMenu("SetCurrency")]
+    void SetCurrency()
+    {
+        string[] nms = CountryCurrencyJSONFile.text.Split('}');
+        foreach (var str in nms)
+
+
+            foreach (var item in countries)
+            {
+                if (str.Substring(11, 2) == item.name) item.Currency = str.Substring(25, str.Length - 26);
+                item.meshRenderer = item.GetComponent<MeshRenderer>();
+            }
+
+    }
+
+    [ContextMenu("SetGDP")]
+    void SetGDP()
+    {
+        string[] nms = CountryGDPJSONFile.text.Split('}');
+        foreach (var str in nms)
+
+
+            foreach (var item in countries)
+            {
+                if (str.Substring(11, 2) == item.name) item.GDP = str.Substring(25, str.Length - 26);
+                item.meshRenderer = item.GetComponent<MeshRenderer>();
+            }
+
+    }
+
 
     public int GetZone(Texture2D tex, Vector2 uv)
     {

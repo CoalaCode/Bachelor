@@ -33,17 +33,27 @@ public class WindowLayerInfo : MonoBehaviour
 
         layersText[0].text = country ? country.Name : "No Country";
 
-        layersText[1].text = country ? country.Population.ToString() + "K" : "N/A";
+        layersText[1].text = country ? country.Population : "No Population";
 
-        layersText[2].text = country ? country.Wealth + "$" : "N/A";
+        layersText[2].text = country ? country.Size : "No Size";
 
-        layersText[3].text = WorldMapManager.instance.GetPercentByTexture(WorldMapManager.instance.WorldLayersTextures[3], uvCoords).ToString() + "%";
+        layersText[3].text = country ? country.Capital : "No Language";
 
-        layersText[4].text = WorldMapManager.instance.GetPercentByTexture(WorldMapManager.instance.WorldLayersTextures[4], uvCoords).ToString() + "%";
+        layersText[4].text = country ? country.Language : "No Capital";
 
-        layersText[5].text = WorldMapManager.instance.GetPercentByTexture(WorldMapManager.instance.WorldLayersTextures[5], uvCoords).ToString() + "%";
+        layersText[5].text = country ? country.GDP : "No Government";
 
-        layersText[6].text = WorldMapManager.instance.ClimatZonesNames[WorldMapManager.instance.GetZone(WorldMapManager.instance.WorldLayersTextures[6], uvCoords)];
+        layersText[6].text = country ? country.Currency : "No Currency";
+
+        //layersText[8].text = country ? country.Wealth + "$" : "N/A";
+
+        layersText[7].text = WorldMapManager.instance.GetPercentByTexture(WorldMapManager.instance.WorldLayersTextures[3], uvCoords).ToString() + "%";
+
+        layersText[8].text = WorldMapManager.instance.GetPercentByTexture(WorldMapManager.instance.WorldLayersTextures[4], uvCoords).ToString() + "%";
+
+        layersText[9].text = WorldMapManager.instance.GetPercentByTexture(WorldMapManager.instance.WorldLayersTextures[5], uvCoords).ToString() + "%";
+
+        layersText[10].text = WorldMapManager.instance.ClimatZonesNames[WorldMapManager.instance.GetZone(WorldMapManager.instance.WorldLayersTextures[6], uvCoords)];
 
 
     }

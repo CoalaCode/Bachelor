@@ -9,10 +9,13 @@ public class GameManager : MonoBehaviour
     
     public List<TMP_Text> countryTexts;
     public List<Image> checkmarks;
+    public TMP_Text gameOverText;
+    //public Button restartGameBtn;
     [SerializeField] XRRayInteractor rayInteractor;
 
     private GameObject[] countriesGameObjects;
     private List<GameObject> countryList;
+    private string countryName;
     private string currentCountry;
     private int correctGuesses = 0;
     private int wrongGuesses = 0;
@@ -38,6 +41,8 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         OnCountryClicked();
+        GameOver();
+        
     }
 
     void SelectRandomCountries()
@@ -46,7 +51,7 @@ public class GameManager : MonoBehaviour
 
         for (int i = 0; i < 10; i++)
         {     
-            index = Random.Range(0, this.countriesGameObjects.Length);            
+            index = Random.Range(0, this.countriesGameObjects.Length);
             countryList.Add(this.countriesGameObjects[index]);         
         }
         Debug.Log("CountryList Count: " + countryList.Count);
@@ -57,7 +62,8 @@ public class GameManager : MonoBehaviour
         for (int i = 0; i < countryList.Count; i++)
         {
             //Debug.Log("Hello");
-            countryTexts[i].text = countryList[i].name;
+            countryName = countryList[i].GetComponent<Country>().Name;
+            countryTexts[i].text = countryName;
         }
     }
 
@@ -82,6 +88,7 @@ public class GameManager : MonoBehaviour
                         checkmarks[i].color = Color.green;
                         correctGuesses++;
                         Debug.Log(checkmarks[i].name);
+                        Debug.Log(correctGuesses);
 
                     }
                     else
@@ -94,6 +101,27 @@ public class GameManager : MonoBehaviour
                     }
                 }
             }
+        }
+    }
+
+    public void RestartGame()
+    {
+        correctGuesses = 0;
+        countryList.Clear();
+        SelectRandomCountries();
+        DisplayCurrentCountry();
+        for(int i = 0; i < 10; i++)
+        {
+            checkmarks[i].color = Color.grey;
+        }
+    }
+
+    void GameOver()
+    {
+        if(correctGuesses == 10)
+        {
+            gameOverText.color = Color.green;
+            //gameOverText.color.a = 1.0f;
         }
     }
 

@@ -6,7 +6,13 @@ public class Country : MonoBehaviour
 {
     [SerializeField] public Color ColorCountry;
     [SerializeField] public string Name;
-    [SerializeField] public float Population;
+    [SerializeField] public string Population;
+    [SerializeField] public string Size;
+    [SerializeField] public string Language;
+    [SerializeField] public string Capital;
+    [SerializeField] public string Government;
+    [SerializeField] public string GDP;
+    [SerializeField] public string Currency;
     [SerializeField] public float Wealth;
     [SerializeField] public MeshRenderer meshRenderer;
     private bool _Hovered;
