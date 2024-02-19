@@ -3,6 +3,8 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -10,7 +12,7 @@ public class GameManager : MonoBehaviour
     public List<TMP_Text> countryTexts;
     public List<Image> checkmarks;
     public GameObject gameOverText;
-    //public Button restartGameBtn;
+
     [SerializeField] XRRayInteractor rayInteractor;
 
     private GameObject[] countriesGameObjects;
@@ -21,6 +23,12 @@ public class GameManager : MonoBehaviour
     private int correctGuesses = 0;
     private int wrongGuesses = 0;
 
+    bool triggerPressed;
+    //InputDevice rightController = new UnityEngine.XR.InputDevice();
+    List<InputDevice> inputDevices = new List<UnityEngine.XR.InputDevice>();
+
+
+
     void Start()
     {
         countriesGameObjects = GameObject.FindGameObjectsWithTag("Country");
@@ -28,16 +36,16 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("No GameObjects are tagged with 'Country'");
         }
-        /*
-        for(int i = 0; i < countries.Length; i++)
-        {
-            Debug.Log(countries[i].name);
-        }
-        */
+     
         countryList = new List<GameObject>();
         guessedCountriesList = new List<GameObject>();
         SelectRandomCountries();
         DisplayCurrentCountry();
+
+        //UnityEngine.XR.InputDevices.GetDevices(inputDevices);       
+        InputDevices.GetDevicesWithCharacteristics(InputDeviceCharacteristics.Right, inputDevices);
+        
+
     }
 
     private void Update()
@@ -63,7 +71,6 @@ public class GameManager : MonoBehaviour
     {
         for (int i = 0; i < countryList.Count; i++)
         {
-            //Debug.Log("Hello");
             countryName = countryList[i].GetComponent<Country>().Name;
             countryTexts[i].text = countryName;
         }
@@ -72,31 +79,33 @@ public class GameManager : MonoBehaviour
     public void OnCountryClicked()
     {
         RaycastHit hit;
-        //Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
         if (rayInteractor.TryGetCurrent3DRaycastHit(out hit))
         {
-            Debug.Log("RayHit");
+    
+            inputDevices[0].TryGetFeatureValue(CommonUsages.triggerButton, out triggerPressed);
+   
             if (hit.collider.gameObject == null) return;
             GameObject tempCountry = hit.collider.gameObject;
             if (tempCountry != null)
-            {
-                //Debug.Log("Hallo");
+            {              
                 for (int i = 0; i < countryList.Count; i++)
                 {
-                    if (tempCountry.name.Equals(countryList[i].name) && !guessedCountriesList.Contains(tempCountry))
+                    if (tempCountry.name.Equals(countryList[i].name) && !guessedCountriesList.Contains(tempCountry) && triggerPressed)
                     {
                         
                         checkmarks[i].color = Color.green;
                         correctGuesses++;
-                        Debug.Log(checkmarks[i].name);
-                        Debug.Log(correctGuesses);
                         guessedCountriesList.Add(countryList[i]);
-
+                        //Debug.Log(checkmarks[i].name);
+                        //Debug.Log(correctGuesses);
+                        //triggerPressed = false;
+                        //Debug.Log("After Done" + triggerPressed);
                     }
                     else
                     {
                         wrongGuesses++;
+                        //triggerPressed = false;
                         if (wrongGuesses > 3)
                         {
                             //GameOver Text
@@ -125,15 +134,11 @@ public class GameManager : MonoBehaviour
         if(correctGuesses == 10)
         {
             gameOverText.SetActive(true);
-            //gameOverText.color.a = 1.0f;
+        }
+        else if(wrongGuesses > 3)
+        {
+            //TODO
         }
     }
 
-    /*
-    void DisplayStatistics()
-    {
-        // Display statistics UI, showing correct guesses out of total
-        Debug.Log("Game Over. Correct Guesses: " + correctGuesses + "/" + countries.Count);
-    }
-    */
 }
