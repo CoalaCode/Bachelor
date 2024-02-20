@@ -5,6 +5,7 @@ using System;
 using System.IO;
 using UnityEngine.EventSystems;
 using UnityEngine.XR.Interaction.Toolkit;
+using UnityEngine.XR;
 
 public class WorldMapManager : MonoBehaviour
 {
@@ -36,9 +37,22 @@ public class WorldMapManager : MonoBehaviour
     [Header("Prefab for Select Point on Earth")]
     [SerializeField] GameObject UnitPoint;
 
+    [SerializeField] GameObject earthPlanet;
+
     [SerializeField] XRRayInteractor rayInteractor;
+    //InputManager inputManager;
+    List<InputDevice> inputDevices = new List<UnityEngine.XR.InputDevice>();
+    private Vector2 rotationThumbstick;
+    private bool triggerPressed;
+    private float rotationSpeed = 40;
+
+
+    public Vector2 HoveredEarthUVCoord;
+    public Vector2 SelectedEarthUVCoord;
 
     public Country CurrentHoveredCountry;
+    public Country CurrentSelectedCountryInfo;
+    
     private Country _currentSelectedCountry;
     public Country CurrentSelectedCountry
     {
@@ -152,15 +166,15 @@ public class WorldMapManager : MonoBehaviour
 
         HideMap();
         SetNames();
-        //SetPopulationAndWealth();
         SetCapital();
         SetPopulation();
         SetSize();
         SetLanguage();
         SetCurrency();
         SetGDP();
-    }
 
+        //InputDevices.GetDevices(inputDevices);
+    }
 
 
     void ShowMap()
@@ -185,53 +199,107 @@ public class WorldMapManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F6)) CurrentState = State.Disaster;
         if (Input.GetKeyDown(KeyCode.F7)) CurrentState = State.Climat;
         */
-
+        
         SelectCountry();
+        RotateEarth();
     }
+    
+    void RotateEarth()
+    {
+        Vector2 rotationThumbstick;
+        Debug.Log(transform.position);
+        // Get input from primary 2D axis of VR controller
+        if (InputDevices.GetDeviceAtXRNode(XRNode.LeftHand).TryGetFeatureValue(CommonUsages.primary2DAxis, out rotationThumbstick))
+        {
+            // Calculate rotation angle based on input
+            float rotationAmount = rotationThumbstick.x * rotationSpeed * Time.deltaTime;
+
+            // Rotate the GameObject around its Y-axis
+            earthPlanet.transform.Rotate(Vector3.back, rotationAmount, Space.Self);
+            //transform.RotateAround(transform.position, Vector3.up, rotationAmount);
+        }
+        /*
+        inputDevices[0].TryGetFeatureValue(CommonUsages.primary2DAxis, out rotationThumbstick);
+        //Vector2 controllerInput = inputManager.rotationThumbstick;
+        float rotationAmount = rotationThumbstick.x * rotationSpeed * Time.deltaTime;
+        earth.transform.Rotate(0f, rotationAmount, 0f, Space.Self);
+        */
+    }
+
 
     void SelectCountry()
     {
-        //Debug.Log("SelectMethod");
-        //PlaceUnitPoint();
-        //Debug.Log("Bla");
-        RaycastHit hit;
-        //Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        InputDevices.GetDeviceAtXRNode(XRNode.RightHand).TryGetFeatureValue(CommonUsages.triggerButton, out triggerPressed);
 
+        RaycastHit hit;
+
+        // Perform raycast
         if (rayInteractor.TryGetCurrent3DRaycastHit(out hit))
         {
-            //Debug.Log("RayHit");
-            if (hit.collider.gameObject == null) return;
+            // Debug.Log("RayHit");
+            if (hit.collider.gameObject == null)
+            {
+                // If raycast hits nothing, highlight the last selected country info (if any)
+                if (CurrentSelectedCountryInfo != null)
+                {
+                    CurrentSelectedCountryInfo.Hovered = true;
+                }
+                return;
+            }
+
             Country tempCountry = countries.Find(X => X.gameObject == hit.collider.gameObject);
             if (tempCountry != null)
             {
-                if (tempCountry != CurrentHoveredCountry)
+                if (triggerPressed)
                 {
-                    if (CurrentHoveredCountry != null) CurrentHoveredCountry.Hovered = false;
-                    CurrentHoveredCountry = tempCountry;
-                    HoveredEarthUVCoord = hit.textureCoord;
-                }
+                    // Update the hovered country
+                    if (tempCountry != CurrentHoveredCountry)
+                    {
+                        if (CurrentHoveredCountry != null) CurrentHoveredCountry.Hovered = false;
+                        CurrentHoveredCountry = tempCountry;
+                        HoveredEarthUVCoord = hit.textureCoord;
+                    }
 
-                CurrentHoveredCountry.Hovered = true;
-                return;
+                    CurrentHoveredCountry.Hovered = true;
+                }
+                else
+                {
+                    // Highlight the last selected country info if trigger is released
+                    if (tempCountry != CurrentSelectedCountryInfo)
+                    {
+                        if (CurrentSelectedCountryInfo != null) CurrentSelectedCountryInfo.Hovered = false;
+                        CurrentSelectedCountryInfo = tempCountry;
+                        HoveredEarthUVCoord = hit.textureCoord;
+                    }
+
+                    CurrentSelectedCountryInfo.Hovered = true;
+                }
             }
             else
             {
-                if (CurrentHoveredCountry != null) CurrentHoveredCountry.Hovered = false;
-                CurrentHoveredCountry = null;
+                if (triggerPressed)
+                {
+                    if (CurrentHoveredCountry != null) CurrentHoveredCountry.Hovered = false;
+                    CurrentHoveredCountry = null;
+                }
+                else
+                {
+                    if (CurrentSelectedCountryInfo != null) CurrentSelectedCountryInfo.Hovered = false;
+                    CurrentSelectedCountryInfo = null;
+                }
             }
         }
         else
         {
-            //Debug.Log("NoHit");
-            if (CurrentHoveredCountry != null) CurrentHoveredCountry.Hovered = false;
-            CurrentHoveredCountry = null;
+            // If no raycast hit, highlight the last selected country info (if any)
+            if (CurrentSelectedCountryInfo != null)
+            {
+                CurrentSelectedCountryInfo.Hovered = true;
+            }
         }
-
-
     }
 
-    public Vector2 HoveredEarthUVCoord;
-    public Vector2 SelectedEarthUVCoord;
+
 
 
     void PlaceUnitPoint()

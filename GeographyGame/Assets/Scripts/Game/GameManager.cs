@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverText;
 
     [SerializeField] XRRayInteractor rayInteractor;
+    InputManager inputManager;
 
     private GameObject[] countriesGameObjects;
     private List<GameObject> countryList;
@@ -44,8 +45,8 @@ public class GameManager : MonoBehaviour
 
         //UnityEngine.XR.InputDevices.GetDevices(inputDevices);       
         InputDevices.GetDevicesWithCharacteristics(InputDeviceCharacteristics.Right, inputDevices);
-        
 
+        //inputManager = new InputManager();
     }
 
     private void Update()
