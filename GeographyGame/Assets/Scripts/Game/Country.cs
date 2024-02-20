@@ -15,6 +15,12 @@ public class Country : MonoBehaviour
     [SerializeField] public string Currency;
     [SerializeField] public float Wealth;
     [SerializeField] public MeshRenderer meshRenderer;
+
+    public float science;
+    public float logistics;
+    public float disaster;
+    public string climate;
+
     private bool _Hovered;
     public bool Hovered
     {

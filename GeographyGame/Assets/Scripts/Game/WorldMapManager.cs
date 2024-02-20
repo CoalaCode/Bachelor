@@ -258,6 +258,8 @@ public class WorldMapManager : MonoBehaviour
                         if (CurrentHoveredCountry != null) CurrentHoveredCountry.Hovered = false;
                         CurrentHoveredCountry = tempCountry;
                         HoveredEarthUVCoord = hit.textureCoord;
+                        SetMaskValues(CurrentHoveredCountry, HoveredEarthUVCoord);
+                        
                     }
 
                     CurrentHoveredCountry.Hovered = true;
@@ -270,6 +272,7 @@ public class WorldMapManager : MonoBehaviour
                         if (CurrentSelectedCountryInfo != null) CurrentSelectedCountryInfo.Hovered = false;
                         CurrentSelectedCountryInfo = tempCountry;
                         HoveredEarthUVCoord = hit.textureCoord;
+                        SetMaskValues(CurrentSelectedCountryInfo, HoveredEarthUVCoord);
                     }
 
                     CurrentSelectedCountryInfo.Hovered = true;
@@ -470,6 +473,13 @@ public class WorldMapManager : MonoBehaviour
 
     }
 
+    void SetMaskValues(Country currentCountry, Vector2 uvCoords)
+    {
+        currentCountry.science = instance.GetPercentByTexture(instance.WorldLayersTextures[3], uvCoords);
+        currentCountry.logistics = instance.GetPercentByTexture(instance.WorldLayersTextures[4], uvCoords);
+        currentCountry.disaster = instance.GetPercentByTexture(instance.WorldLayersTextures[5], uvCoords);
+        currentCountry.climate = instance.ClimatZonesNames[instance.GetZone(instance.WorldLayersTextures[6], uvCoords)];
+    }
 
     public int GetZone(Texture2D tex, Vector2 uv)
     {

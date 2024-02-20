@@ -45,8 +45,17 @@ public class WindowLayerInfo : MonoBehaviour
 
         layersText[6].text = country ? country.Currency : "No Currency";
 
+        layersText[7].text = country ? country.science.ToString() + "%" : "No Science";
+
+        layersText[8].text = country ? country.logistics.ToString() + "%" : "No Transport";
+
+        layersText[9].text = country ? country.disaster.ToString() + "%" : "No Disaster";
+
+        layersText[10].text = country ? country.climate : "No Climate";
+
         //layersText[8].text = country ? country.Wealth + "$" : "N/A";
 
+        /*
         layersText[7].text = WorldMapManager.instance.GetPercentByTexture(WorldMapManager.instance.WorldLayersTextures[3], uvCoords).ToString() + "%";
 
         layersText[8].text = WorldMapManager.instance.GetPercentByTexture(WorldMapManager.instance.WorldLayersTextures[4], uvCoords).ToString() + "%";
@@ -54,7 +63,7 @@ public class WindowLayerInfo : MonoBehaviour
         layersText[9].text = WorldMapManager.instance.GetPercentByTexture(WorldMapManager.instance.WorldLayersTextures[5], uvCoords).ToString() + "%";
 
         layersText[10].text = WorldMapManager.instance.ClimatZonesNames[WorldMapManager.instance.GetZone(WorldMapManager.instance.WorldLayersTextures[6], uvCoords)];
-
+        */
 
     }
 }
