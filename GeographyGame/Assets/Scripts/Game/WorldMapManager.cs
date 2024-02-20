@@ -21,7 +21,7 @@ public class WorldMapManager : MonoBehaviour
     [SerializeField] public Material Disaster;
     [SerializeField] public Material Climat;
     [SerializeField] public List<Texture2D> WorldLayersTextures;
-    [Header("Use it for different zones on ClimatTexture")] [SerializeField] public List<Color> ClimatZonesColors;
+    [Header("Use it for different zones on ClimateTexture")] [SerializeField] public List<Color> ClimatZonesColors;
     [SerializeField] public List<string> ClimatZonesNames;
     [Header("Use this file with void SetNames()")]
     [SerializeField] public TextAsset CountryNamesJSONFile;
@@ -36,24 +36,22 @@ public class WorldMapManager : MonoBehaviour
     [SerializeField] public List<Material> EarthMaterialsByTypeOnCountries;
     [Header("Prefab for Select Point on Earth")]
     [SerializeField] GameObject UnitPoint;
-
     [SerializeField] GameObject earthPlanet;
-
     [SerializeField] XRRayInteractor rayInteractor;
-    //InputManager inputManager;
-    List<InputDevice> inputDevices = new List<UnityEngine.XR.InputDevice>();
-    private Vector2 rotationThumbstick;
+ 
     private bool triggerPressed;
+    private bool buttonXPressed;
+    private bool buttonYPressed;
     private float rotationSpeed = 40;
-
+    private Vector3 scaleFactor = new Vector3(0.01f, 0.01f, 0.01f);
 
     public Vector2 HoveredEarthUVCoord;
     public Vector2 SelectedEarthUVCoord;
 
     public Country CurrentHoveredCountry;
-    public Country CurrentSelectedCountryInfo;
-    
+    public Country CurrentSelectedCountryInfo;  
     private Country _currentSelectedCountry;
+
     public Country CurrentSelectedCountry
     {
         get => _currentSelectedCountry;
@@ -71,6 +69,7 @@ public class WorldMapManager : MonoBehaviour
             _currentSelectedCountry = value;
         }
     }
+
     public float currentPointValue;
     LayerMask EarthMask;
     public GameObject CurrenUnitPoint;
@@ -82,8 +81,7 @@ public class WorldMapManager : MonoBehaviour
     {
         get => _currentState;
         set
-        {
-            
+        {         
             ChangeAllCountriesMaterials(EarthMaterialsByTypeOnCountries[(int)value]);
             Debug.Log("State Function");
 
@@ -142,8 +140,8 @@ public class WorldMapManager : MonoBehaviour
             _currentState = value;
             EventChangeState();
         }
-
     }
+
     #endregion
     public static WorldMapManager _instance;
     public static WorldMapManager instance
@@ -163,7 +161,6 @@ public class WorldMapManager : MonoBehaviour
         if (instance == null) instance = this;
         else if (instance != this) { Destroy(gameObject); return; };
 
-
         HideMap();
         SetNames();
         SetCapital();
@@ -172,36 +169,21 @@ public class WorldMapManager : MonoBehaviour
         SetLanguage();
         SetCurrency();
         SetGDP();
-
-        //InputDevices.GetDevices(inputDevices);
     }
-
 
     void ShowMap()
     {
         Camera.main.cullingMask = ~0;
-
-
     }
     void HideMap()
     {
         Camera.main.cullingMask = ~LayerMask.GetMask("Water");
-
     }
     void Update()
-    {
-        /*
-        if (Input.GetKeyDown(KeyCode.F1)) CurrentState = State.Earth;
-        if (Input.GetKeyDown(KeyCode.F2)) CurrentState = State.Politic;
-        if (Input.GetKeyDown(KeyCode.F3)) CurrentState = State.Population;
-        if (Input.GetKeyDown(KeyCode.F4)) CurrentState = State.Science;
-        if (Input.GetKeyDown(KeyCode.F5)) CurrentState = State.Transport;
-        if (Input.GetKeyDown(KeyCode.F6)) CurrentState = State.Disaster;
-        if (Input.GetKeyDown(KeyCode.F7)) CurrentState = State.Climat;
-        */
-        
+    {     
         SelectCountry();
         RotateEarth();
+        ScaleEarth();
     }
     
     void RotateEarth()
@@ -218,12 +200,6 @@ public class WorldMapManager : MonoBehaviour
             earthPlanet.transform.Rotate(Vector3.back, rotationAmount, Space.Self);
             //transform.RotateAround(transform.position, Vector3.up, rotationAmount);
         }
-        /*
-        inputDevices[0].TryGetFeatureValue(CommonUsages.primary2DAxis, out rotationThumbstick);
-        //Vector2 controllerInput = inputManager.rotationThumbstick;
-        float rotationAmount = rotationThumbstick.x * rotationSpeed * Time.deltaTime;
-        earth.transform.Rotate(0f, rotationAmount, 0f, Space.Self);
-        */
     }
 
 
@@ -302,9 +278,6 @@ public class WorldMapManager : MonoBehaviour
         }
     }
 
-
-
-
     void PlaceUnitPoint()
     {
         if (Input.GetMouseButton(0))
@@ -312,11 +285,6 @@ public class WorldMapManager : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, 1000))
             {
-
-
-
-
-
                 CurrentSelectedCountry = CurrentHoveredCountry;
                 SelectedEarthUVCoord = HoveredEarthUVCoord;
 
@@ -502,6 +470,20 @@ public class WorldMapManager : MonoBehaviour
     {
         Color col = tex.GetPixel(Mathf.RoundToInt(uv.x * tex.width), Mathf.RoundToInt(uv.y * tex.height));
         return Mathf.RoundToInt(col.r * 100);
+    }
+
+    void ScaleEarth()
+    {
+        InputDevices.GetDeviceAtXRNode(XRNode.RightHand).TryGetFeatureValue(CommonUsages.primaryButton, out buttonXPressed);
+        InputDevices.GetDeviceAtXRNode(XRNode.RightHand).TryGetFeatureValue(CommonUsages.secondaryButton, out buttonYPressed);
+
+        if(buttonXPressed)
+        {
+            earthPlanet.transform.localScale += scaleFactor;
+        } else if(buttonYPressed)
+        {
+            earthPlanet.transform.localScale -= scaleFactor;
+        }
     }
 
     void ChangeAllCountriesMaterials(Material mat)
