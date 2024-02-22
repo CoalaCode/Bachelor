@@ -20,6 +20,14 @@ public class WorldMapManager : MonoBehaviour
     [SerializeField] public Material Transport;
     [SerializeField] public Material Disaster;
     [SerializeField] public Material Climat;
+    [SerializeField] public Material EarthAugust;
+    [SerializeField] public Material EarthJanuary;
+    [SerializeField] public Material EarthDetails;
+    [SerializeField] public Material EarthBorders;
+    [SerializeField] public Material EarthNight;
+    [SerializeField] public Material EarthDay;
+    [SerializeField] public Material OceanFlow;
+    [SerializeField] public Material SeaLevelRise;
     [SerializeField] public List<Texture2D> WorldLayersTextures;
     [Header("Use it for different zones on ClimateTexture")] [SerializeField] public List<Color> ClimatZonesColors;
     [SerializeField] public List<string> ClimatZonesNames;
@@ -75,7 +83,7 @@ public class WorldMapManager : MonoBehaviour
     public GameObject CurrenUnitPoint;
     public static event Action EventChangeState;
 
-    public enum State { Earth = 0, Politic = 1, Population = 2, Science = 3, Transport = 4, Disaster = 5, Climat = 6 }
+    public enum State { Earth = 0, Politic = 1, Population = 2, Science = 3, Transport = 4, Disaster = 5, Climat = 6, EarthDay = 7, EarthNight = 8, EarthJanuary = 9, EarthAugust = 10, EarthBorders = 11, EarthDetails = 12, OceanFlow = 13, SeaLevelRise = 14 }
     private State _currentState;
     public State CurrentState
     {
@@ -92,18 +100,15 @@ public class WorldMapManager : MonoBehaviour
                     Clouds.SetActive(true);
                     Glow.SetActive(true);
                     HideMap();
-
                     break;
                 case State.Politic:
                     EarthRenderer.sharedMaterial = Earth;
                     ShowMap();
                     Clouds.SetActive(false);
                     Glow.SetActive(false);
-
                     break;
                 case State.Population:
                     EarthRenderer.sharedMaterial = Population;
-
                     ShowMap();
                     Clouds.SetActive(false);
                     Glow.SetActive(false);
@@ -128,6 +133,54 @@ public class WorldMapManager : MonoBehaviour
                     break;
                 case State.Climat:
                     EarthRenderer.sharedMaterial = Climat;
+                    Glow.SetActive(false);
+                    Clouds.SetActive(false);
+                    ShowMap();
+                    break;
+                case State.EarthDay:
+                    EarthRenderer.sharedMaterial = EarthDay;
+                    Clouds.SetActive(true);
+                    Glow.SetActive(true);
+                    HideMap();
+                    break;
+                case State.EarthNight:
+                    EarthRenderer.sharedMaterial = EarthNight;
+                    ShowMap();
+                    Clouds.SetActive(false);
+                    Glow.SetActive(false);
+                    break;
+                case State.EarthJanuary:
+                    EarthRenderer.sharedMaterial = EarthJanuary;
+                    ShowMap();
+                    Clouds.SetActive(false);
+                    Glow.SetActive(false);
+                    break;
+                case State.EarthAugust:
+                    EarthRenderer.sharedMaterial = EarthAugust;
+                    Glow.SetActive(false);
+                    ShowMap();
+                    Clouds.SetActive(false);
+                    break;
+                case State.EarthBorders:
+                    EarthRenderer.sharedMaterial = EarthBorders;
+                    Glow.SetActive(false);
+                    ShowMap();
+                    Clouds.SetActive(false);
+                    break;
+                case State.EarthDetails:
+                    EarthRenderer.sharedMaterial = EarthDetails;
+                    Glow.SetActive(false);
+                    Clouds.SetActive(false);
+                    ShowMap();
+                    break;
+                case State.OceanFlow:
+                    EarthRenderer.sharedMaterial = OceanFlow;
+                    Glow.SetActive(false);
+                    Clouds.SetActive(false);
+                    ShowMap();
+                    break;
+                case State.SeaLevelRise:
+                    EarthRenderer.sharedMaterial = SeaLevelRise;
                     Glow.SetActive(false);
                     Clouds.SetActive(false);
                     ShowMap();
@@ -186,23 +239,7 @@ public class WorldMapManager : MonoBehaviour
         ScaleEarth();
     }
     
-    void RotateEarth()
-    {
-        Vector2 rotationThumbstick;
-        Debug.Log(transform.position);
-        // Get input from primary 2D axis of VR controller
-        if (InputDevices.GetDeviceAtXRNode(XRNode.LeftHand).TryGetFeatureValue(CommonUsages.primary2DAxis, out rotationThumbstick))
-        {
-            // Calculate rotation angle based on input
-            float rotationAmount = rotationThumbstick.x * rotationSpeed * Time.deltaTime;
-
-            // Rotate the GameObject around its Y-axis
-            earthPlanet.transform.Rotate(Vector3.back, rotationAmount, Space.Self);
-            //transform.RotateAround(transform.position, Vector3.up, rotationAmount);
-        }
-    }
-
-
+    
     void SelectCountry()
     {
         InputDevices.GetDeviceAtXRNode(XRNode.RightHand).TryGetFeatureValue(CommonUsages.triggerButton, out triggerPressed);
@@ -470,6 +507,35 @@ public class WorldMapManager : MonoBehaviour
     {
         Color col = tex.GetPixel(Mathf.RoundToInt(uv.x * tex.width), Mathf.RoundToInt(uv.y * tex.height));
         return Mathf.RoundToInt(col.r * 100);
+    }
+
+    void RotateEarth()
+    {
+        Vector2 rotationThumbstickLeft;
+        Vector2 rotationThumbstickRight;
+
+        // Get input from primary 2D axis of VR controller
+        if (InputDevices.GetDeviceAtXRNode(XRNode.LeftHand).TryGetFeatureValue(CommonUsages.primary2DAxis, out rotationThumbstickLeft))
+        {
+            // Calculate rotation angle based on input
+            float rotationAmount = rotationThumbstickLeft.x * rotationSpeed * Time.deltaTime;
+
+            // Rotate the GameObject around its Y-axis
+            earthPlanet.transform.Rotate(Vector3.back, rotationAmount, Space.Self);
+            //transform.RotateAround(transform.position, Vector3.up, rotationAmount);
+        }  
+        /*
+        if(InputDevices.GetDeviceAtXRNode(XRNode.RightHand).TryGetFeatureValue(CommonUsages.primary2DAxis, out rotationThumbstickRight))
+        {
+            float rotationAmount = rotationThumbstickRight.y * rotationSpeed * Time.deltaTime;
+            earthPlanet.transform.Rotate(Vector3.left, rotationAmount, Space.Self);
+        }
+        */
+    }
+
+    public void ResetRotation()
+    {
+        earthPlanet.transform.rotation = Quaternion.Euler(-90f, 117.59f, 0f);
     }
 
     void ScaleEarth()

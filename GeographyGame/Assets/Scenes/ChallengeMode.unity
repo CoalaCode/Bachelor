@@ -6717,6 +6717,22 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: Climate
       m_Image: {fileID: 0}
+    - m_Text: Earth byday
+      m_Image: {fileID: 0}
+    - m_Text: Earth at night
+      m_Image: {fileID: 0}
+    - m_Text: Earth in January
+      m_Image: {fileID: 0}
+    - m_Text: Earth in August
+      m_Image: {fileID: 0}
+    - m_Text: Country borders
+      m_Image: {fileID: 0}
+    - m_Text: Earth details
+      m_Image: {fileID: 0}
+    - m_Text: Oceal flow vectors
+      m_Image: {fileID: 0}
+    - m_Text: Sea level rise
+      m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -32550,7 +32566,15 @@ MonoBehaviour:
   Science: {fileID: 2100000, guid: c5a0cb85d34ff6d4e8ee21bcce7b742d, type: 2}
   Transport: {fileID: 2100000, guid: c29bfdba2e178144b99839d1cc880401, type: 2}
   Disaster: {fileID: 2100000, guid: a3f4bd26599627e4390f282eaa2352f4, type: 2}
-  Climat: {fileID: 2100000, guid: 8d1993dbb95f4df4c865c092bbae9dd0, type: 2}
+  Climat: {fileID: 2100000, guid: 70d88a21fdc168544a70d11a013c8f85, type: 2}
+  EarthAugust: {fileID: 2100000, guid: 3086e454026b19a439d93adc6651c96d, type: 2}
+  EarthJanuary: {fileID: 2100000, guid: fffa50615154d414384f016f1ba5ceee, type: 2}
+  EarthDetails: {fileID: 2100000, guid: 9982a643d3ca6ff4e9b35ed45e721177, type: 2}
+  EarthBorders: {fileID: 2100000, guid: 91c4f43c669285a4da6efccba2cb9315, type: 2}
+  EarthNight: {fileID: 2100000, guid: 8664f9c04a803cf499edb7a289bc4e32, type: 2}
+  EarthDay: {fileID: 2100000, guid: d8907f43f6638df469e90a5aad6a8d68, type: 2}
+  OceanFlow: {fileID: 2100000, guid: 48e3c9895c569fd48bbfb21732f8f98b, type: 2}
+  SeaLevelRise: {fileID: 2100000, guid: a799b53bce827ff40b45ecf57d74d010, type: 2}
   WorldLayersTextures:
   - {fileID: 2800000, guid: fa27693c55271b34d8c3b742f5a48873, type: 3}
   - {fileID: 2800000, guid: bfbbbda1aa134254cbe9b818b9db6cb3, type: 3}
@@ -32585,7 +32609,15 @@ MonoBehaviour:
   - {fileID: 2100000, guid: c5a0cb85d34ff6d4e8ee21bcce7b742d, type: 2}
   - {fileID: 2100000, guid: c29bfdba2e178144b99839d1cc880401, type: 2}
   - {fileID: 2100000, guid: a3f4bd26599627e4390f282eaa2352f4, type: 2}
-  - {fileID: 2100000, guid: 8d1993dbb95f4df4c865c092bbae9dd0, type: 2}
+  - {fileID: 2100000, guid: 70d88a21fdc168544a70d11a013c8f85, type: 2}
+  - {fileID: 2100000, guid: d8907f43f6638df469e90a5aad6a8d68, type: 2}
+  - {fileID: 2100000, guid: 8664f9c04a803cf499edb7a289bc4e32, type: 2}
+  - {fileID: 2100000, guid: fffa50615154d414384f016f1ba5ceee, type: 2}
+  - {fileID: 2100000, guid: 3086e454026b19a439d93adc6651c96d, type: 2}
+  - {fileID: 2100000, guid: 91c4f43c669285a4da6efccba2cb9315, type: 2}
+  - {fileID: 2100000, guid: 9982a643d3ca6ff4e9b35ed45e721177, type: 2}
+  - {fileID: 2100000, guid: 48e3c9895c569fd48bbfb21732f8f98b, type: 2}
+  - {fileID: 2100000, guid: a799b53bce827ff40b45ecf57d74d010, type: 2}
   UnitPoint: {fileID: 0}
   earthPlanet: {fileID: 666067079}
   rayInteractor: {fileID: 1438528617}

@@ -258,6 +258,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 31315994}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &31315997
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -566,6 +570,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 38255503}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &38255506
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -755,6 +763,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 55374834}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &55374837
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -810,6 +822,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 62391859}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &62391862
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -876,6 +892,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 89494906}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &89494909
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -931,6 +951,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 89577789}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &89577792
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1120,6 +1144,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 105969526}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &105969529
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1186,6 +1214,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 121481756}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &121481759
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1241,6 +1273,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 123909808}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &123909811
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1296,6 +1332,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 124198695}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &124198698
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1351,6 +1391,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 1463
   meshRenderer: {fileID: 129892882}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &129892885
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1406,6 +1450,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 133183582}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &133183585
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1461,6 +1509,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 135716097}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &135716100
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1814,6 +1866,22 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: Climate
       m_Image: {fileID: 0}
+    - m_Text: Earth by day
+      m_Image: {fileID: 0}
+    - m_Text: Earth at night
+      m_Image: {fileID: 0}
+    - m_Text: Earth in January
+      m_Image: {fileID: 0}
+    - m_Text: Earth in August
+      m_Image: {fileID: 0}
+    - m_Text: Country borders
+      m_Image: {fileID: 0}
+    - m_Text: Earth details
+      m_Image: {fileID: 0}
+    - m_Text: Ocean flow vectors
+      m_Image: {fileID: 0}
+    - m_Text: Sea level rise
+      m_Image: {fileID: 0}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -2035,6 +2103,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 247172759}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &247172762
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2095,6 +2167,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 253085263}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &253085266
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2268,6 +2344,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 259244930}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &259244933
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2457,6 +2537,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 265234367}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &265234370
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2512,6 +2596,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 281442756}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &281442759
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2567,6 +2655,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 284152038}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &284152041
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2622,6 +2714,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 289938135}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &289938138
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2677,6 +2773,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 296737351}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &296737354
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2732,6 +2832,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 303335880}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &303335883
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2787,6 +2891,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 316445553}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &316445556
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2842,6 +2950,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 325457797}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &325457800
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2897,6 +3009,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 344336403}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &344336406
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3182,6 +3298,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 351147474}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &351147477
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3529,6 +3649,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 373622064}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &373622067
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3584,6 +3708,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 54324
   meshRenderer: {fileID: 376082023}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &376082026
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3639,6 +3767,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 381669560}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &381669563
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3814,6 +3946,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 412988372}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &412988375
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3869,6 +4005,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 415334978}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &415334981
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3924,6 +4064,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 416412254}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &416412257
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3979,6 +4123,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 419043722}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &419043725
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4168,6 +4316,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 450963836}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &450963839
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4302,6 +4454,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 458777946}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &458777949
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4535,6 +4691,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 463769367}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &463769370
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4590,6 +4750,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 477354554}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &477354557
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4645,6 +4809,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 485626168}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &485626171
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4700,6 +4868,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 491267681}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &491267684
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4755,6 +4927,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 510268290}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &510268293
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4900,6 +5076,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 517883620}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &517883623
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4960,6 +5140,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 528534151}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &528534154
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5020,6 +5204,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 538360856}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &538360859
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5075,6 +5263,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 540947555}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &540947558
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5130,6 +5322,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 550199561}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &550199564
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5356,6 +5552,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 578686317}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &578686320
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5411,6 +5611,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 589375854}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &589375857
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5487,6 +5691,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 598412637}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &598412640
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5542,6 +5750,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 614212440}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &614212443
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5632,6 +5844,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 642619753}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &642619756
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5735,6 +5951,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 660611921}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &660611924
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6079,6 +6299,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 23
   meshRenderer: {fileID: 669360081}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &669360084
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6134,6 +6358,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 670706431}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &670706434
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6189,6 +6417,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 676180748}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &676180751
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6244,6 +6476,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 689145850}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &689145853
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6437,6 +6673,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 693987923}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &693987926
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6492,6 +6732,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 698565437}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &698565440
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6547,6 +6791,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 700056862}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &700056865
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6854,6 +7102,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 751499515}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &751499518
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6909,6 +7161,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 753166268}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &753166271
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6964,6 +7220,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 753665630}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &753665633
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7153,6 +7413,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 765701397}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &765701400
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7208,6 +7472,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 782768066}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &782768069
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7263,6 +7531,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 783119596}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &783119599
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9159,6 +9431,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 803118228}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &803118231
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9348,6 +9624,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 813114743}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &813114746
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9408,6 +9688,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 833222844}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &833222847
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9463,6 +9747,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 850536027}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &850536030
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9677,6 +9965,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 856804997}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &856804996
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9719,7 +10011,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 7390871704515345542, guid: 3414c0103c3598c4cbe01122aae01971, type: 3}
+  - {fileID: 2100000, guid: fa8aa7b7bbba53043b26744d30101a84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9782,6 +10074,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 858211813}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &858211816
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9837,6 +10133,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 864515047}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &864515050
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9892,6 +10192,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 869829135}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &869829138
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9947,6 +10251,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 880370478}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &880370481
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10002,6 +10310,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 890393507}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &890393510
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10057,6 +10369,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 895075872}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &895075875
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10275,6 +10591,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 926792546}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &926792549
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10330,6 +10650,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 950006580}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &950006583
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10385,6 +10709,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 955455386}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &955455389
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10440,6 +10768,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 966926843}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &966926846
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10570,6 +10902,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 982150215}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &982150218
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10636,6 +10972,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1010806193}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1010806196
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10691,6 +11031,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1020040388}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1020040391
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10880,6 +11224,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1043533430}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1043533433
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10935,6 +11283,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1058937904}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1058937907
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11061,6 +11413,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1075222721}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1075222724
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11116,6 +11472,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1079344441}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1079344444
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11171,6 +11531,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1091305733}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1091305736
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11360,6 +11724,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1102260470}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1102260473
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11415,6 +11783,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1109830236}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1109830239
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11470,6 +11842,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1134757381}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1134757384
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11525,6 +11901,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1142674266}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1142674269
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11580,6 +11960,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1155425747}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1155425750
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11635,6 +12019,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1157919902}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1157919905
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11690,6 +12078,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1162562643}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1162562646
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11814,6 +12206,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1172769026}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1172769029
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11880,6 +12276,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1185482774}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1185482777
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11935,6 +12335,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1185817019}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1185817022
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12015,6 +12419,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1200562877}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1200562876
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12057,7 +12465,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 7390871704515345542, guid: 3414c0103c3598c4cbe01122aae01971, type: 3}
+  - {fileID: 2100000, guid: fa8aa7b7bbba53043b26744d30101a84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12120,6 +12528,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1201452333}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1201452336
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12175,6 +12587,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 117.06
   meshRenderer: {fileID: 1230694297}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1230694300
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12254,6 +12670,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1249128260}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1249128263
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12309,6 +12729,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1256115162}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1256115165
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12369,6 +12793,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1258716665}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1258716668
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12510,6 +12938,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1275406724}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1275406727
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13047,6 +13479,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1307180184}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1307180183
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13089,7 +13525,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 7390871704515345542, guid: 3414c0103c3598c4cbe01122aae01971, type: 3}
+  - {fileID: 2100000, guid: fa8aa7b7bbba53043b26744d30101a84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13152,6 +13588,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1308342072}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1308342075
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13207,6 +13647,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1318793383}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1318793386
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13343,6 +13787,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1363218782}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1363218785
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13986,6 +14434,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1381868086}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1381868089
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14041,6 +14493,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1386909736}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1386909739
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14096,6 +14552,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1389129093}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1389129096
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14151,6 +14611,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1393801025}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1393801028
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14206,6 +14670,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1404050096}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1404050099
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14261,6 +14729,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1408046058}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1408046061
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14316,6 +14788,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1426389644}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1426389647
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14580,6 +15056,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1445931868}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1445931871
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14635,6 +15115,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 2343
   meshRenderer: {fileID: 1447393639}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1447393642
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14690,6 +15174,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1448036462}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1448036465
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14782,6 +15270,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1458648235}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1458648238
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15239,6 +15731,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1485071871}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1485071874
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15294,6 +15790,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1485270501}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1485270504
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15366,6 +15866,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1497157011}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1497157014
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15508,6 +16012,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1514083268}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1514083271
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15822,6 +16330,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1556661569}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1556661572
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15877,6 +16389,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1580949818}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1580949821
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15932,6 +16448,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1586027986}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1586027989
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16023,6 +16543,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1589601077}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1589601080
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16206,6 +16730,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1622891349}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1622891352
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16271,6 +16799,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1628536176}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1628536179
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16351,6 +16883,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1643315713}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1643315712
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16393,7 +16929,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 7390871704515345542, guid: 3414c0103c3598c4cbe01122aae01971, type: 3}
+  - {fileID: 2100000, guid: fa8aa7b7bbba53043b26744d30101a84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16456,6 +16992,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1651114075}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1651114078
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16511,6 +17051,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1656262230}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1656262233
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16566,6 +17110,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1662077118}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1662077121
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16616,6 +17164,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1663542358}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1663542356
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16676,6 +17228,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1663556753}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1663556756
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16731,6 +17287,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1667781501}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1667781504
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16786,6 +17346,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1667856310}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1667856313
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16866,6 +17430,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1677478990}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1677478989
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16908,7 +17476,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 7390871704515345542, guid: 3414c0103c3598c4cbe01122aae01971, type: 3}
+  - {fileID: 2100000, guid: fa8aa7b7bbba53043b26744d30101a84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -16971,6 +17539,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1682981585}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1682981588
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17026,6 +17598,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1685120724}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1685120727
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17081,6 +17657,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 2
   meshRenderer: {fileID: 1713655971}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1713655974
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17136,6 +17716,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1713723739}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1713723742
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17196,6 +17780,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1734960487}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1734960490
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17422,6 +18010,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1759886929}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1759886932
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17477,6 +18069,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1767469784}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1767469787
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17532,6 +18128,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1768170392}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1768170395
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17587,6 +18187,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1780526994}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1780526997
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17609,6 +18213,138 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2199962355637767992, guid: cfe0039257a4c7747b995c764de21fec, type: 3}
+--- !u!1 &1785926800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1785926801}
+  - component: {fileID: 1785926804}
+  - component: {fileID: 1785926803}
+  - component: {fileID: 1785926802}
+  m_Layer: 5
+  m_Name: ButtonResetRotation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1785926801
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785926800}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2034188272}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1785926802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785926800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1785926803}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1814498303}
+        m_TargetAssemblyTypeName: WorldMapManager, Assembly-CSharp
+        m_MethodName: ResetRotation
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1785926803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785926800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.5019608}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 139237a044d8e4255b40bb472c842087, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1785926804
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785926800}
+  m_CullTransparentMesh: 1
 --- !u!1 &1791864070 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -7788893479646602950, guid: cfe0039257a4c7747b995c764de21fec, type: 3}
@@ -17642,6 +18378,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1791864072}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1791864075
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17923,6 +18663,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 343
   meshRenderer: {fileID: 1813174488}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1813174491
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18178,7 +18922,15 @@ MonoBehaviour:
   Science: {fileID: 2100000, guid: c5a0cb85d34ff6d4e8ee21bcce7b742d, type: 2}
   Transport: {fileID: 2100000, guid: c29bfdba2e178144b99839d1cc880401, type: 2}
   Disaster: {fileID: 2100000, guid: a3f4bd26599627e4390f282eaa2352f4, type: 2}
-  Climat: {fileID: 2100000, guid: 8d1993dbb95f4df4c865c092bbae9dd0, type: 2}
+  Climat: {fileID: 2100000, guid: 70d88a21fdc168544a70d11a013c8f85, type: 2}
+  EarthAugust: {fileID: 2100000, guid: 3086e454026b19a439d93adc6651c96d, type: 2}
+  EarthJanuary: {fileID: 2100000, guid: fffa50615154d414384f016f1ba5ceee, type: 2}
+  EarthDetails: {fileID: 2100000, guid: 9982a643d3ca6ff4e9b35ed45e721177, type: 2}
+  EarthBorders: {fileID: 2100000, guid: 91c4f43c669285a4da6efccba2cb9315, type: 2}
+  EarthNight: {fileID: 2100000, guid: 8664f9c04a803cf499edb7a289bc4e32, type: 2}
+  EarthDay: {fileID: 2100000, guid: d8907f43f6638df469e90a5aad6a8d68, type: 2}
+  OceanFlow: {fileID: 2100000, guid: 48e3c9895c569fd48bbfb21732f8f98b, type: 2}
+  SeaLevelRise: {fileID: 2100000, guid: a799b53bce827ff40b45ecf57d74d010, type: 2}
   WorldLayersTextures:
   - {fileID: 2800000, guid: fa27693c55271b34d8c3b742f5a48873, type: 3}
   - {fileID: 2800000, guid: bfbbbda1aa134254cbe9b818b9db6cb3, type: 3}
@@ -18213,15 +18965,24 @@ MonoBehaviour:
   - {fileID: 2100000, guid: c5a0cb85d34ff6d4e8ee21bcce7b742d, type: 2}
   - {fileID: 2100000, guid: c29bfdba2e178144b99839d1cc880401, type: 2}
   - {fileID: 2100000, guid: a3f4bd26599627e4390f282eaa2352f4, type: 2}
-  - {fileID: 2100000, guid: 8d1993dbb95f4df4c865c092bbae9dd0, type: 2}
+  - {fileID: 2100000, guid: 70d88a21fdc168544a70d11a013c8f85, type: 2}
+  - {fileID: 2100000, guid: d8907f43f6638df469e90a5aad6a8d68, type: 2}
+  - {fileID: 2100000, guid: 8664f9c04a803cf499edb7a289bc4e32, type: 2}
+  - {fileID: 2100000, guid: fffa50615154d414384f016f1ba5ceee, type: 2}
+  - {fileID: 2100000, guid: 3086e454026b19a439d93adc6651c96d, type: 2}
+  - {fileID: 2100000, guid: 91c4f43c669285a4da6efccba2cb9315, type: 2}
+  - {fileID: 2100000, guid: 9982a643d3ca6ff4e9b35ed45e721177, type: 2}
+  - {fileID: 2100000, guid: 48e3c9895c569fd48bbfb21732f8f98b, type: 2}
+  - {fileID: 2100000, guid: a799b53bce827ff40b45ecf57d74d010, type: 2}
   UnitPoint: {fileID: 0}
   earthPlanet: {fileID: 666067079}
   rayInteractor: {fileID: 1181820268}
-  CurrentHoveredCountry: {fileID: 0}
-  currentPointValue: 0
-  CurrenUnitPoint: {fileID: 0}
   HoveredEarthUVCoord: {x: 0, y: 0}
   SelectedEarthUVCoord: {x: 0, y: 0}
+  CurrentHoveredCountry: {fileID: 0}
+  CurrentSelectedCountryInfo: {fileID: 0}
+  currentPointValue: 0
+  CurrenUnitPoint: {fileID: 0}
 --- !u!33 &1814498304
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -18376,6 +19137,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1846924663}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1846924666
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18600,6 +19365,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1890520870}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1890520873
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18655,6 +19424,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1891546335}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1891546338
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18710,6 +19483,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1894563508}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1894563511
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18899,6 +19676,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1903078230}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1903078233
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18954,6 +19735,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1907774422}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1907774425
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19175,6 +19960,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1923369353}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1923369356
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19230,6 +20019,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1930401643}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1930401646
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19285,6 +20078,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1942154983}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1942154986
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19340,6 +20137,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1942679099}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1942679102
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19395,6 +20196,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1950169753}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1950169756
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19570,6 +20375,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 1959816784}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &1959816787
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19750,6 +20559,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 2002707897}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &2002707900
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19835,6 +20648,7 @@ RectTransform:
   - {fileID: 385598633}
   - {fileID: 1958270697}
   - {fileID: 1960049115}
+  - {fileID: 1785926801}
   m_Father: {fileID: 2001866392}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
@@ -20053,6 +20867,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 2060721666}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &2060721669
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20108,6 +20926,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 2061849215}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &2061849218
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20163,6 +20985,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 2065964082}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &2065964085
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20213,6 +21039,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 3442367
   meshRenderer: {fileID: 2067088591}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &2067088589
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20308,6 +21138,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 1
   meshRenderer: {fileID: 2087349583}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &2087349586
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20363,6 +21197,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 2088340190}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &2088340193
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20418,6 +21256,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 2089775490}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &2089775493
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20473,6 +21315,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 2091907753}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &2091907756
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20528,6 +21374,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 2094395527}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &2094395530
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20583,6 +21433,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 2101692718}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &2101692721
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20649,6 +21503,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 2105713487}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &2105713490
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20704,6 +21562,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 2107234649}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &2107234652
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20796,6 +21658,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 2111043200}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &2111043203
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20851,6 +21717,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 2117655414}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &2117655417
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20948,6 +21818,10 @@ MonoBehaviour:
   Currency: 
   Wealth: 0
   meshRenderer: {fileID: 2120702549}
+  science: 0
+  logistics: 0
+  disaster: 0
+  climate: 
 --- !u!64 &2120702552
 MeshCollider:
   m_ObjectHideFlags: 0
