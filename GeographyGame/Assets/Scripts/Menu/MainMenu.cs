@@ -6,17 +6,22 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
 
-    public void PlayGame()
+    public void StartExplorerMode()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("ExplorerMode");
     }
 
-    public void PlayChallenge()
+    public void StartChallengeMode()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        SceneManager.LoadScene("ChallengeMode");
     }
 
-    public void GoToMainMenu()
+    public void StartSimulationMode()
+    {
+        SceneManager.LoadScene("SimulationMode");
+    }
+
+    public void StartMainMenu()
     {
         SceneManager.LoadScene("MainMenu");
     }
