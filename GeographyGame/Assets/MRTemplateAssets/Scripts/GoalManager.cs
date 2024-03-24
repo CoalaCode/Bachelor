@@ -87,11 +87,6 @@ public class GoalManager : MonoBehaviour
     [SerializeField]
     Toggle m_VideoPlayerToggle;
 
-    [SerializeField]
-    ARPlaneManager m_ARPlaneManager;
-
-    [SerializeField]
-    ObjectSpawner m_ObjectSpawner;
 
     const int k_NumberOfSurfacesTappedToCompleteGoal = 1;
     Vector3 m_TargetOffset = new Vector3(-.5f, -.25f, 1.5f);
@@ -143,15 +138,6 @@ public class GoalManager : MonoBehaviour
         if (m_LearnModalButton != null)
         {
             m_LearnModalButton.onClick.AddListener(CloseModal);
-        }
-
-        if (m_ObjectSpawner == null)
-        {
-#if UNITY_2023_1_OR_NEWER
-            m_ObjectSpawner = FindAnyObjectByType<ObjectSpawner>();
-#else
-            m_ObjectSpawner = FindObjectOfType<ObjectSpawner>();
-#endif
         }
     }
 
@@ -214,8 +200,6 @@ public class GoalManager : MonoBehaviour
 
     void CompleteGoal()
     {
-        if (m_CurrentGoal.CurrentGoal == OnboardingGoals.TapSurface)
-            m_ObjectSpawner.objectSpawned -= OnObjectSpawned;
 
         // disable tooltips before setting next goal
         DisableTooltips();
@@ -249,7 +233,6 @@ public class GoalManager : MonoBehaviour
                 m_LearnButton.SetActive(true);
             }
 
-            StartCoroutine(TurnOnPlanes());
         }
         else if (m_CurrentGoal.CurrentGoal == OnboardingGoals.TapSurface)
         {
@@ -257,16 +240,9 @@ public class GoalManager : MonoBehaviour
             {
                 m_LearnButton.SetActive(false);
             }
-            m_SurfacesTapped = 0;
-            m_ObjectSpawner.objectSpawned += OnObjectSpawned;
         }
     }
 
-    public IEnumerator TurnOnPlanes()
-    {
-        yield return new WaitForSeconds(1f);
-        m_ARPlaneManager.enabled = true;
-    }
 
     void DisableTooltips()
     {
@@ -311,8 +287,6 @@ public class GoalManager : MonoBehaviour
         {
             m_LearnModal.transform.localScale = Vector3.zero;
         }
-
-        StartCoroutine(TurnOnPlanes());
     }
 
     public void ResetCoaching()

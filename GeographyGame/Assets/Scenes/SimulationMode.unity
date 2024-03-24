@@ -10894,6 +10894,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8844109532033174030, guid: cfe0039257a4c7747b995c764de21fec, type: 3}
+--- !u!114 &985866601 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4968769839778511794, guid: 8b4d02b4e05af714dab2a12548a310f8, type: 3}
+  m_PrefabInstance: {fileID: 1109407790274764219}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 956dd6cf70eaca449a45b6a95b96c8c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1010806191 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4576953519967738394, guid: cfe0039257a4c7747b995c764de21fec, type: 3}
@@ -22030,7 +22041,7 @@ PrefabInstance:
     - target: {fileID: 1983781844452491184, guid: 8b4d02b4e05af714dab2a12548a310f8, type: 3}
       propertyPath: m_ObjectSpawner
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 985866601}
     - target: {fileID: 1983781844452491184, guid: 8b4d02b4e05af714dab2a12548a310f8, type: 3}
       propertyPath: m_CoachingUIParent
       value: 
@@ -22288,7 +22299,6 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 8495506645477454422, guid: 8b4d02b4e05af714dab2a12548a310f8, type: 3}
     - {fileID: 6175213767407465855, guid: 8b4d02b4e05af714dab2a12548a310f8, type: 3}
-    - {fileID: 1836125610, guid: 8b4d02b4e05af714dab2a12548a310f8, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b4d02b4e05af714dab2a12548a310f8, type: 3}
