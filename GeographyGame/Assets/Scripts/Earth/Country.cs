@@ -10,16 +10,16 @@ using UnityEngine;
 public class Country : MonoBehaviour
 {
     // Fields related to country information, provided by Max Schneider
-    [SerializeField] public Color ColorCountry;
-    [SerializeField] public string Name;
-    [SerializeField] public string Population;
-    [SerializeField] public string Size;
-    [SerializeField] public string Language;
-    [SerializeField] public string Capital;
-    [SerializeField] public string Government;
-    [SerializeField] public string GDP;
-    [SerializeField] public string Currency;
-    [SerializeField] public float Wealth;
+    [SerializeField] public Color colorCountry;
+    [SerializeField] public string countryName;
+    [SerializeField] public string population;
+    [SerializeField] public string size;
+    [SerializeField] public string language;
+    [SerializeField] public string capital;
+    [SerializeField] public string governmentType;
+    [SerializeField] public string countryGdp;
+    [SerializeField] public string currency;
+    [SerializeField] public float wealth;
     [SerializeField] public MeshRenderer meshRenderer;
 
     // Fields related to country attributes, provided by u3d 
@@ -57,7 +57,7 @@ public class Country : MonoBehaviour
         Color[] colors = new Color[vertices.Length];
 
         for (int i = 0; i < vertices.Length; i++)
-            colors[i] = ColorCountry;
+            colors[i] = colorCountry;
 
         // assign the array of colors to the Mesh.
         mesh.colors = colors;

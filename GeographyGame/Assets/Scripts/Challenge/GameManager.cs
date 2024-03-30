@@ -79,7 +79,7 @@ public class GameManager : MonoBehaviour
     {
         for (int i = 0; i < countryList.Count; i++)
         {
-            countryName = countryList[i].GetComponent<Country>().Name;
+            countryName = countryList[i].GetComponent<Country>().countryName;
             countryTexts[i].text = countryName;
         }
     }

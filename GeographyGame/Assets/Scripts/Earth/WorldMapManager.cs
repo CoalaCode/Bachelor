@@ -1,50 +1,59 @@
-using System.Collections;
+/*******************************************************************
+* Author            : Max Schneider and u3d
+* Copyright         : MIT License
+* File Name         : WorldMapManager.cs
+* Description       : This file contains the logic for the interaction of the earth.
+*
+******************************************************************/
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-using System.IO;
-using UnityEngine.EventSystems;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.XR;
 
 public class WorldMapManager : MonoBehaviour
 {
     #region Variables
+    // References to  game objects and components
     [SerializeField] MeshRenderer EarthRenderer;
     [SerializeField] GameObject Clouds;
     [SerializeField] GameObject Glow;
     [SerializeField] public List<Country> countries;
     [SerializeField] public Material Earth;
-    [SerializeField] public Material Population;
-    [SerializeField] public Material Science;
-    [SerializeField] public Material Transport;
+    [SerializeField] public Material Climate;
     [SerializeField] public Material Disaster;
-    [SerializeField] public Material Climat;
+
+    // Materials added by Max Schneider
     [SerializeField] public Material EarthAugust;
     [SerializeField] public Material EarthJanuary;
     [SerializeField] public Material EarthDetails;
     [SerializeField] public Material EarthBorders;
     [SerializeField] public Material EarthNight;
-    [SerializeField] public Material EarthDay;
     [SerializeField] public Material OceanFlow;
-    [SerializeField] public Material SeaLevelRise;
+
     [SerializeField] public List<Texture2D> WorldLayersTextures;
-    [Header("Use it for different zones on ClimateTexture")] [SerializeField] public List<Color> ClimatZonesColors;
-    [SerializeField] public List<string> ClimatZonesNames;
-    [Header("Use this file with void SetNames()")]
+
+    [Header("Use it for different zones on ClimateTexture")] [SerializeField] public List<Color> ClimateZonesColors;
+    [SerializeField] public List<string> ClimateZonesNames;
+
+    //JSON Files created and added by Max Schneider
+    [Header("JSON Files")]
     [SerializeField] public TextAsset CountryNamesJSONFile;
-    //[SerializeField] public TextAsset CountryPopulationJSonFile;
     [SerializeField] public TextAsset CountryCapitalJSONFile;
     [SerializeField] public TextAsset CountryPopulationJSONFile;
     [SerializeField] public TextAsset CountrySizeJSONFile;
     [SerializeField] public TextAsset CountryLanguageJSONFile;
     [SerializeField] public TextAsset CountryCurrencyJSONFile;
     [SerializeField] public TextAsset CountryGDPJSONFile;
+
     [Header("Use this file with void SetPopulationAndWealth()")]
     [SerializeField] public List<Material> EarthMaterialsByTypeOnCountries;
+
     [Header("Prefab for Select Point on Earth")]
     [SerializeField] GameObject UnitPoint;
     [SerializeField] GameObject earthPlanet;
+
+    // RayInteractor of XR-Controller 
     [SerializeField] XRRayInteractor rayInteractor;
 
     private bool triggerPressed;
@@ -60,6 +69,7 @@ public class WorldMapManager : MonoBehaviour
     public Country CurrentSelectedCountryInfo;
     private Country _currentSelectedCountry;
 
+    // Get and set current selected country
     public Country CurrentSelectedCountry
     {
         get => _currentSelectedCountry;
@@ -83,7 +93,8 @@ public class WorldMapManager : MonoBehaviour
     public GameObject CurrenUnitPoint;
     public static event Action EventChangeState;
 
-    public enum State { Earth = 0, Politic = 1, Population = 2, Science = 3, Transport = 4, Disaster = 5, Climat = 6, EarthDay = 7, EarthNight = 8, EarthJanuary = 9, EarthAugust = 10, EarthBorders = 11, EarthDetails = 12, OceanFlow = 13, SeaLevelRise = 14 }
+    // Enum for different states of the world map
+    public enum State { Earth = 0, Disaster = 1, Climate = 2, EarthNight = 3, EarthJanuary = 4, EarthAugust = 5, EarthBorders = 6, EarthDetails = 7, OceanFlow = 8}
     private State _currentState;
     public State CurrentState
     {
@@ -93,6 +104,7 @@ public class WorldMapManager : MonoBehaviour
             ChangeAllCountriesMaterials(EarthMaterialsByTypeOnCountries[(int)value]);
             Debug.Log("State Function");
 
+            //Switch cases extended by Max Schneider
             switch (value)
             {
                 case State.Earth:
@@ -101,47 +113,17 @@ public class WorldMapManager : MonoBehaviour
                     Glow.SetActive(true);
                     HideMap();
                     break;
-                case State.Politic:
-                    EarthRenderer.sharedMaterial = Earth;
-                    ShowMap();
-                    Clouds.SetActive(false);
-                    Glow.SetActive(false);
-                    break;
-                case State.Population:
-                    EarthRenderer.sharedMaterial = Population;
-                    ShowMap();
-                    Clouds.SetActive(false);
-                    Glow.SetActive(false);
-                    break;
-                case State.Science:
-                    EarthRenderer.sharedMaterial = Science;
-                    Glow.SetActive(false);
-                    ShowMap();
-                    Clouds.SetActive(false);
-                    break;
-                case State.Transport:
-                    EarthRenderer.sharedMaterial = Transport;
-                    Glow.SetActive(false);
-                    ShowMap();
-                    Clouds.SetActive(false);
-                    break;
                 case State.Disaster:
                     EarthRenderer.sharedMaterial = Disaster;
                     Glow.SetActive(false);
                     Clouds.SetActive(false);
                     ShowMap();
                     break;
-                case State.Climat:
-                    EarthRenderer.sharedMaterial = Climat;
+                case State.Climate:
+                    EarthRenderer.sharedMaterial = Climate;
                     Glow.SetActive(false);
                     Clouds.SetActive(false);
                     ShowMap();
-                    break;
-                case State.EarthDay:
-                    EarthRenderer.sharedMaterial = EarthDay;
-                    Clouds.SetActive(true);
-                    Glow.SetActive(true);
-                    HideMap();
                     break;
                 case State.EarthNight:
                     EarthRenderer.sharedMaterial = EarthNight;
@@ -179,17 +161,9 @@ public class WorldMapManager : MonoBehaviour
                     Clouds.SetActive(false);
                     ShowMap();
                     break;
-                case State.SeaLevelRise:
-                    EarthRenderer.sharedMaterial = SeaLevelRise;
-                    Glow.SetActive(false);
-                    Clouds.SetActive(false);
-                    ShowMap();
-                    break;
                 default:
                     break;
             }
-
-
             _currentState = value;
             EventChangeState();
         }
@@ -209,6 +183,7 @@ public class WorldMapManager : MonoBehaviour
         }
         set { _instance = value; }
     }
+
     void Awake()
     {
         if (instance == null) instance = this;
@@ -239,7 +214,7 @@ public class WorldMapManager : MonoBehaviour
         ScaleEarth();
     }
 
-
+    // Function to select country with XR-Controller by Max Schneider
     void SelectCountry()
     {
         InputDevices.GetDeviceAtXRNode(XRNode.RightHand).TryGetFeatureValue(CommonUsages.triggerButton, out triggerPressed);
@@ -344,10 +319,11 @@ public class WorldMapManager : MonoBehaviour
     {
         foreach (var item in countries)
         {
-            item.ColorCountry = UnityEngine.Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
+            item.colorCountry = UnityEngine.Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
         }
     }
 
+    // Set country name from JSON file, function by Max Schneider
     [ContextMenu("SetNames")]
     void SetNames()
     {
@@ -357,37 +333,13 @@ public class WorldMapManager : MonoBehaviour
 
             foreach (var item in countries)
             {
-                if (str.Substring(11, 2) == item.name) item.Name = str.Substring(25, str.Length - 26);
+                if (str.Substring(11, 2) == item.name) item.countryName = str.Substring(25, str.Length - 26);
                 item.meshRenderer = item.GetComponent<MeshRenderer>();
             }
 
     }
 
-    /*
-    [ContextMenu("SetPopulation")]
-    void SetPopulationAndWealth()
-    {
-
-        string[] nms = CountryPopulationJSonFile.text.Split('\n');
-        foreach (var str in nms)
-        {
-
-            string[] cntr = str.Split('\t');
-
-            foreach (var item in countries)
-            {
-                if (cntr[0].Trim().ToLower() == item.Name.ToLower())
-                {
-                    float.TryParse(cntr[3], out item.Population);
-                    float.TryParse(cntr[2], out item.Wealth);
-                }
-            }
-
-        }
-
-    }
-    */
-
+    // Set country capital from JSON file, function by Max Schneider
     [ContextMenu("SetCapital")]
     void SetCapital()
     {
@@ -397,12 +349,13 @@ public class WorldMapManager : MonoBehaviour
 
             foreach (var item in countries)
             {
-                if (str.Substring(11, 2) == item.name) item.Capital = str.Substring(25, str.Length - 26);
+                if (str.Substring(11, 2) == item.name) item.capital = str.Substring(25, str.Length - 26);
                 item.meshRenderer = item.GetComponent<MeshRenderer>();
             }
 
     }
 
+    // Set country populations from JSON file, function by Max Schneider
     [ContextMenu("SetPopulation")]
     void SetPopulation()
     {
@@ -412,12 +365,13 @@ public class WorldMapManager : MonoBehaviour
 
             foreach (var item in countries)
             {
-                if (str.Substring(11, 2) == item.name) item.Population = str.Substring(25, str.Length - 26);
+                if (str.Substring(11, 2) == item.name) item.population = str.Substring(25, str.Length - 26);
                 item.meshRenderer = item.GetComponent<MeshRenderer>();
             }
 
     }
 
+    // Set country size from JSON file, function by Max Schneider
     [ContextMenu("SetSize")]
     void SetSize()
     {
@@ -427,12 +381,13 @@ public class WorldMapManager : MonoBehaviour
 
             foreach (var item in countries)
             {
-                if (str.Substring(11, 2) == item.name) item.Size = str.Substring(25, str.Length - 26);
+                if (str.Substring(11, 2) == item.name) item.size = str.Substring(25, str.Length - 26);
                 item.meshRenderer = item.GetComponent<MeshRenderer>();
             }
 
     }
 
+    // Set country language from JSON file, function by Max Schneider
     [ContextMenu("SetLanguage")]
     void SetLanguage()
     {
@@ -442,12 +397,13 @@ public class WorldMapManager : MonoBehaviour
 
             foreach (var item in countries)
             {
-                if (str.Substring(11, 2) == item.name) item.Language = str.Substring(25, str.Length - 26);
+                if (str.Substring(11, 2) == item.name) item.language = str.Substring(25, str.Length - 26);
                 item.meshRenderer = item.GetComponent<MeshRenderer>();
             }
 
     }
 
+    // Set country curreny from JSON file, function by Max Schneider
     [ContextMenu("SetCurrency")]
     void SetCurrency()
     {
@@ -457,12 +413,13 @@ public class WorldMapManager : MonoBehaviour
 
             foreach (var item in countries)
             {
-                if (str.Substring(11, 2) == item.name) item.Currency = str.Substring(25, str.Length - 26);
+                if (str.Substring(11, 2) == item.name) item.currency = str.Substring(25, str.Length - 26);
                 item.meshRenderer = item.GetComponent<MeshRenderer>();
             }
 
     }
 
+    // Set country gdp from JSON file, function by Max Schneider
     [ContextMenu("SetGDP")]
     void SetGDP()
     {
@@ -472,7 +429,7 @@ public class WorldMapManager : MonoBehaviour
 
             foreach (var item in countries)
             {
-                if (str.Substring(11, 2) == item.name) item.GDP = str.Substring(25, str.Length - 26);
+                if (str.Substring(11, 2) == item.name) item.countryGdp = str.Substring(25, str.Length - 26);
                 item.meshRenderer = item.GetComponent<MeshRenderer>();
             }
 
@@ -483,7 +440,7 @@ public class WorldMapManager : MonoBehaviour
         currentCountry.science = instance.GetPercentByTexture(instance.WorldLayersTextures[3], uvCoords);
         currentCountry.logistics = instance.GetPercentByTexture(instance.WorldLayersTextures[4], uvCoords);
         currentCountry.disaster = instance.GetPercentByTexture(instance.WorldLayersTextures[5], uvCoords);
-        currentCountry.climate = instance.ClimatZonesNames[instance.GetZone(instance.WorldLayersTextures[6], uvCoords)];
+        currentCountry.climate = instance.ClimateZonesNames[instance.GetZone(instance.WorldLayersTextures[6], uvCoords)];
     }
 
     public int GetZone(Texture2D tex, Vector2 uv)
@@ -492,9 +449,9 @@ public class WorldMapManager : MonoBehaviour
         float max = 1000000;
 
         int result = -1;
-        for (int i = 0; i < ClimatZonesColors.Count; i++)
+        for (int i = 0; i < ClimateZonesColors.Count; i++)
         {
-            float temp = Vector3.Distance(new Vector3(col.r, col.g, col.b), new Vector3(ClimatZonesColors[i].r, ClimatZonesColors[i].g, ClimatZonesColors[i].b));
+            float temp = Vector3.Distance(new Vector3(col.r, col.g, col.b), new Vector3(ClimateZonesColors[i].r, ClimateZonesColors[i].g, ClimateZonesColors[i].b));
             if (max > temp)
             {
                 max = temp;
@@ -509,6 +466,7 @@ public class WorldMapManager : MonoBehaviour
         return Mathf.RoundToInt(col.r * 100);
     }
 
+    // Rotate earth with XR-Controller, by Max Schneider
     void RotateEarth()
     {
         Vector2 rotationThumbstickLeft;
@@ -522,22 +480,16 @@ public class WorldMapManager : MonoBehaviour
 
             // Rotate the GameObject around its Y-axis
             earthPlanet.transform.Rotate(Vector3.back, rotationAmount, Space.Self);
-            //transform.RotateAround(transform.position, Vector3.up, rotationAmount);
         }
-        /*
-        if(InputDevices.GetDeviceAtXRNode(XRNode.RightHand).TryGetFeatureValue(CommonUsages.primary2DAxis, out rotationThumbstickRight))
-        {
-            float rotationAmount = rotationThumbstickRight.y * rotationSpeed * Time.deltaTime;
-            earthPlanet.transform.Rotate(Vector3.left, rotationAmount, Space.Self);
-        }
-        */
     }
 
+    // Reset earth rotation to origin, by Max Schneider
     public void ResetRotation()
     {
         earthPlanet.transform.rotation = Quaternion.Euler(-90f, 117.59f, 0f);
     }
 
+    // Scale earth with XR-Controller, by Max Schneider
     void ScaleEarth()
     {
         InputDevices.GetDeviceAtXRNode(XRNode.RightHand).TryGetFeatureValue(CommonUsages.primaryButton, out buttonXPressed);

@@ -30,19 +30,19 @@ public class WindowLayerInfo : MonoBehaviour
         uvCoords = WorldMapManager.instance.HoveredEarthUVCoord;
 
         // Display information about the hovered country in the UI text elements
-        layersText[0].text = country ? country.Name : "No Country";
+        layersText[0].text = country ? country.countryName : "No Country";
 
-        layersText[1].text = country ? country.Population : "No Population";
+        layersText[1].text = country ? country.population : "No Population";
 
-        layersText[2].text = country ? country.Size : "No Size";
+        layersText[2].text = country ? country.size : "No Size";
 
-        layersText[3].text = country ? country.Capital : "No Language";
+        layersText[3].text = country ? country.capital : "No Language";
 
-        layersText[4].text = country ? country.Language : "No Capital";
+        layersText[4].text = country ? country.language : "No Capital";
 
-        layersText[5].text = country ? country.GDP : "No Government";
+        layersText[5].text = country ? country.countryGdp : "No Government";
 
-        layersText[6].text = country ? country.Currency : "No Currency";
+        layersText[6].text = country ? country.currency : "No Currency";
 
         layersText[7].text = country ? country.science.ToString() + "%" : "No Science";
 
