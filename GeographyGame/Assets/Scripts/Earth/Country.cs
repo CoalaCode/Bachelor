@@ -1,9 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
+/*******************************************************************
+* Author            : Max Schneider and u3d
+* Copyright         : MIT License
+* File Name         : Country.cs
+* Description       : This file contains the data for the countires for the interaction of the earth.
+*
+/******************************************************************/
 using UnityEngine;
 
 public class Country : MonoBehaviour
 {
+    // Fields related to country information, provided by Max Schneider
     [SerializeField] public Color ColorCountry;
     [SerializeField] public string Name;
     [SerializeField] public string Population;
@@ -16,11 +22,13 @@ public class Country : MonoBehaviour
     [SerializeField] public float Wealth;
     [SerializeField] public MeshRenderer meshRenderer;
 
-    public float science;
-    public float logistics;
-    public float disaster;
-    public string climate;
+    // Fields related to country attributes, provided by u3d 
+    [SerializeField] public float science;
+    [SerializeField] public float logistics;
+    [SerializeField] public float disaster;
+    [SerializeField] public string climate;
 
+    // Indicating if the country is being hovered over
     private bool _Hovered;
     public bool Hovered
     {
@@ -32,13 +40,11 @@ public class Country : MonoBehaviour
                 else
              if (WorldMapManager.instance.CurrentState != WorldMapManager.State.Earth) gameObject.layer = 4;
             _Hovered = value;
-
         }
     }
     void Start()
     {
         ChangeColor();
-
     }
 
 

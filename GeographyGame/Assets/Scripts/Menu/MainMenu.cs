@@ -1,5 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
+/*******************************************************************
+* Author            : Max Schneider
+* Copyright         : MIT License
+* File Name         : MainMenu.cs
+* Description       : This file contains the logic for the menus.
+*
+/******************************************************************/
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 

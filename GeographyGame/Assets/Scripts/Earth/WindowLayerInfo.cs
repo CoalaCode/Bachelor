@@ -1,4 +1,11 @@
-using System.Collections;
+/*******************************************************************
+* Author            : Max Schneider and u3d
+* Copyright         : MIT License
+* File Name         : WindowLayerInfo.cs
+* Description       : This file contains the logic to display the information in the Explorer Mode information window.
+*
+/******************************************************************/
+
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,31 +13,23 @@ public class WindowLayerInfo : MonoBehaviour
 {
     public static WindowLayerInfo instance;
 
+    // List to hold TextMeshProUGUI components for displaying country information information
     [SerializeField] public List<TMPro.TextMeshProUGUI> layersText;
     Country country;
     Vector2 uvCoords;
 
-    private float maxWealth = float.MaxValue;
     void Awake()
     {
         instance = this;
-
-        List<Country> countries = WorldMapManager.instance.countries;
-        float maxWealth = 0;
-        for (int i = 0; i < countries.Count; i++)
-        {
-            Country country = countries[i];
-            if (country.Wealth > maxWealth) maxWealth = country.Wealth;
-        }
-        this.maxWealth = maxWealth;
     }
 
     private void Update()
     {
-
+        // Get the currently hovered country and its UV coordinates
         country = WorldMapManager.instance.CurrentHoveredCountry;
         uvCoords = WorldMapManager.instance.HoveredEarthUVCoord;
 
+        // Display information about the hovered country in the UI text elements
         layersText[0].text = country ? country.Name : "No Country";
 
         layersText[1].text = country ? country.Population : "No Population";
@@ -52,18 +51,6 @@ public class WindowLayerInfo : MonoBehaviour
         layersText[9].text = country ? country.disaster.ToString() + "%" : "No Disaster";
 
         layersText[10].text = country ? country.climate : "No Climate";
-
-        //layersText[8].text = country ? country.Wealth + "$" : "N/A";
-
-        /*
-        layersText[7].text = WorldMapManager.instance.GetPercentByTexture(WorldMapManager.instance.WorldLayersTextures[3], uvCoords).ToString() + "%";
-
-        layersText[8].text = WorldMapManager.instance.GetPercentByTexture(WorldMapManager.instance.WorldLayersTextures[4], uvCoords).ToString() + "%";
-
-        layersText[9].text = WorldMapManager.instance.GetPercentByTexture(WorldMapManager.instance.WorldLayersTextures[5], uvCoords).ToString() + "%";
-
-        layersText[10].text = WorldMapManager.instance.ClimatZonesNames[WorldMapManager.instance.GetZone(WorldMapManager.instance.WorldLayersTextures[6], uvCoords)];
-        */
 
     }
 }

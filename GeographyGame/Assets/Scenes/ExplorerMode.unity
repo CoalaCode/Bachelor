@@ -247,21 +247,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.13333336, g: 0.20546155, b: 0.33333334, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 31315994}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 31315994}
 --- !u!64 &31315997
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -559,21 +559,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.6377357, g: 0.114311054, b: 0.114311054, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 38255503}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 38255503}
 --- !u!64 &38255506
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -752,21 +752,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5999999, g: 0.062264074, b: 0.43121693, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 55374834}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 55374834}
 --- !u!64 &55374837
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -811,21 +811,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5123439, g: 0.5773585, b: 0, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 62391859}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 62391859}
 --- !u!64 &62391862
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -881,21 +881,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 1, g: 0.7330663, b: 0.41320753, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 89494906}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 89494906}
 --- !u!64 &89494909
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -940,21 +940,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.43681547, g: 0.6603774, b: 0.16322534, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 89577789}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 89577789}
 --- !u!64 &89577792
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1133,21 +1133,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.4660377, g: 0.65012395, b: 1, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 105969526}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 105969526}
 --- !u!64 &105969529
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1203,21 +1203,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5264151, g: 1, b: 0.89482844, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 121481756}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 121481756}
 --- !u!64 &121481759
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1262,21 +1262,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.2606138, g: 0.012609455, b: 0.6075471, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 123909808}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 123909808}
 --- !u!64 &123909811
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1321,21 +1321,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 1, g: 0.54905653, b: 0.90437037, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 124198695}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 124198695}
 --- !u!64 &124198698
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1380,21 +1380,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.15294118, g: 0, b: 0.50980395, a: 1}
-  Name: Afghanistan
-  Population: 16.838
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 1463
-  meshRenderer: {fileID: 129892882}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 129892882}
 --- !u!64 &129892885
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1439,21 +1439,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.40296888, g: 0.6603774, b: 0.34264863, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 133183582}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 133183582}
 --- !u!64 &133183585
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1498,21 +1498,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.071517, b: 0.5245282, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 135716097}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 135716097}
 --- !u!64 &135716100
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2092,21 +2092,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.78234494, g: 0.17149875, b: 0.81886786, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 247172759}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 247172759}
 --- !u!64 &247172762
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2156,21 +2156,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.6075471, g: 0.127241, b: 0.49522364, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 253085263}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 253085263}
 --- !u!64 &253085266
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2333,21 +2333,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.048593733, g: 0.6603774, b: 0.49106723, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 259244930}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 259244930}
 --- !u!64 &259244933
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2526,21 +2526,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.43935204, g: 0.7584905, b: 0.7584905, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 265234367}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 265234367}
 --- !u!64 &265234370
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2585,21 +2585,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.35916692, g: 0.645283, b: 0.4222577, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 281442756}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 281442756}
 --- !u!64 &281442759
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2644,21 +2644,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5849056, g: 0.379741, b: 0, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 284152038}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 284152038}
 --- !u!64 &284152041
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2703,21 +2703,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.8039216, b: 0.8901961, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 289938135}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 289938135}
 --- !u!64 &289938138
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2762,21 +2762,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.46884045, g: 0.83396226, b: 0.17466003, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 296737351}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 296737351}
 --- !u!64 &296737354
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2821,21 +2821,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.6075471, g: 0.5456571, b: 0.21894623, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 303335880}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 303335880}
 --- !u!64 &303335883
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2880,21 +2880,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 1, g: 0.4660377, b: 0.4660377, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 316445553}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 316445553}
 --- !u!64 &316445556
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2939,21 +2939,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.7207546, g: 0.581332, b: 0.17814878, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 325457797}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 325457797}
 --- !u!64 &325457800
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3029,13 +3029,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f41a1b5bf575bee47ad4dedde5f9071c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScaleDown: {x: 0.75, y: 0.75, z: 0.75}
-  ScaleUp: {x: 1, y: 1, z: 1}
-  Buttons:
-  - {fileID: 1718439521}
-  - {fileID: 1768900833}
-  - {fileID: 1725999868}
-  - {fileID: 2131586154}
+  scaleDown: {x: 0.75, y: 0.75, z: 0.75}
+  scaleUp: {x: 1, y: 1, z: 1}
+  buttons: []
   earth: {fileID: 666067080}
 --- !u!114 &332535884
 MonoBehaviour:
@@ -3083,21 +3079,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.32874382, g: 0.6603774, b: 0.29280883, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 344336403}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 344336403}
 --- !u!64 &344336406
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3372,21 +3368,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.735849, g: 0, b: 0.5450267, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 351147474}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 351147474}
 --- !u!64 &351147477
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3724,21 +3720,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.27342823, g: 0.49257186, b: 0.5773585, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 373622064}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 373622064}
 --- !u!64 &373622067
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3783,21 +3779,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.7529412, g: 0.8509804, b: 0, a: 1}
-  Name: Australia
-  Population: 64387
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 54324
-  meshRenderer: {fileID: 376082023}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 376082023}
 --- !u!64 &376082026
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3842,21 +3838,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.16182974, g: 0.7207546, b: 0.32512417, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 381669560}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 381669560}
 --- !u!64 &381669563
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3901,21 +3897,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.78867924, g: 0.78441024, b: 0.30207896, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 412988372}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 412988372}
 --- !u!64 &412988375
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3960,21 +3956,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.12647206, g: 0.3172204, b: 0.3509434, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 415334978}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 415334978}
 --- !u!64 &415334981
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4019,21 +4015,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 1, g: 0.51886785, b: 0.99210423, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 416412254}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 416412254}
 --- !u!64 &416412257
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4078,21 +4074,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.6055286, g: 0.6150943, b: 0.27273047, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 419043722}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 419043722}
 --- !u!64 &419043725
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4271,21 +4267,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.35128316, g: 0.315849, b: 0.5999999, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 450963836}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 450963836}
 --- !u!64 &450963839
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4409,21 +4405,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.4818308, b: 0.8490566, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 458777946}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 458777946}
 --- !u!64 &458777949
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4646,21 +4642,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.6094339, g: 0.77050096, b: 1, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 463769367}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 463769367}
 --- !u!64 &463769370
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4705,21 +4701,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5727879, g: 0.23270196, b: 0.6075471, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 477354554}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 477354554}
 --- !u!64 &477354557
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4764,21 +4760,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.36275524, g: 0.10166605, b: 0.4113207, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 485626168}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 485626168}
 --- !u!64 &485626171
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4823,21 +4819,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5773585, g: 0.14270557, b: 0.28153405, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 491267681}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 491267681}
 --- !u!64 &491267684
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -4882,21 +4878,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5471698, g: 0.027874643, b: 0.4934134, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 510268290}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 510268290}
 --- !u!64 &510268293
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5031,21 +5027,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.20872192, g: 0.7735849, b: 0.2099282, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 517883620}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 517883620}
 --- !u!64 &517883623
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5095,21 +5091,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.5479431, b: 0.7584905, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 528534151}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 528534151}
 --- !u!64 &528534154
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5159,21 +5155,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.7056604, g: 0.11583479, b: 0.11583479, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 538360856}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 538360856}
 --- !u!64 &538360859
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5218,21 +5214,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.43516475, g: 0.6226415, b: 0.09750796, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 540947555}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 540947555}
 --- !u!64 &540947558
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5277,21 +5273,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.330542, g: 0.33333334, b: 0.13333336, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 550199561}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 550199561}
 --- !u!64 &550199564
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5507,21 +5503,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.22745095, g: 0.6313726, b: 0.32179207, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 578686317}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 578686317}
 --- !u!64 &578686320
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5566,21 +5562,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.13333336, g: 0.33333334, b: 0.21271166, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 589375854}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 589375854}
 --- !u!64 &589375857
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5646,21 +5642,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5396226, g: 0.19039513, b: 0.19039513, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 598412637}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 598412637}
 --- !u!64 &598412640
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5705,21 +5701,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.4433962, g: 1, b: 0.4811422, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 614212440}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 614212440}
 --- !u!64 &614212443
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5799,21 +5795,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.7056604, b: 0.21184866, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 642619753}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 642619753}
 --- !u!64 &642619756
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5906,21 +5902,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.16718255, b: 0.6830188, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 660611921}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 660611921}
 --- !u!64 &660611924
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6254,21 +6250,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.4660377, g: 1, b: 0.7070179, a: 1}
-  Name: India
-  Population: 123123120
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 23
-  meshRenderer: {fileID: 669360081}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 669360081}
 --- !u!64 &669360084
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6313,21 +6309,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.18621804, g: 0.08669985, b: 0.4641509, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 670706431}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 670706431}
 --- !u!64 &670706434
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6372,21 +6368,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.28068987, b: 0.83396226, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 676180748}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 676180748}
 --- !u!64 &676180751
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6431,21 +6427,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.2, g: 0.9490196, b: 0, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 689145850}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 689145850}
 --- !u!64 &689145853
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6628,21 +6624,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.6830188, g: 0, b: 0.44788715, a: 1}
-  Name: United States of America
-  Population: 2134123
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 693987923}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 693987923}
 --- !u!64 &693987926
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6687,21 +6683,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.54905653, g: 0.56384283, b: 1, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 698565437}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 698565437}
 --- !u!64 &698565440
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6746,21 +6742,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.78867924, g: 0, b: 0.120743416, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 700056862}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 700056862}
 --- !u!64 &700056865
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7057,21 +7053,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 1, g: 0.53396225, b: 0.7369135, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 751499515}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 751499515}
 --- !u!64 &751499518
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7116,21 +7112,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.12875041, g: 0.6377357, b: 0.63668776, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 753166268}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 753166268}
 --- !u!64 &753166271
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7175,21 +7171,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.42239234, g: 0.6603774, b: 0.6603774, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 753665630}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 753665630}
 --- !u!64 &753665633
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7368,21 +7364,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.4117647, b: 0.5529412, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 765701397}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 765701397}
 --- !u!64 &765701400
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7427,21 +7423,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.4943396, g: 0.10726229, b: 0.36486155, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 782768066}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 782768066}
 --- !u!64 &782768069
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -7486,21 +7482,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.55471355, g: 0.6830188, b: 0.3183125, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 783119596}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 783119596}
 --- !u!64 &783119599
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9386,21 +9382,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.32048842, g: 0.25649694, b: 0.4943396, a: 1}
-  Name: Poland
-  Population: 10
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 803118228}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 803118228}
 --- !u!64 &803118231
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9579,21 +9575,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.9364681, g: 0, b: 1, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 813114743}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 813114743}
 --- !u!64 &813114746
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9643,21 +9639,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.41844785, g: 0.16509077, b: 0.6679245, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 833222844}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 833222844}
 --- !u!64 &833222847
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9702,21 +9698,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5061672, g: 1, b: 0.2999999, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 850536027}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 850536027}
 --- !u!64 &850536030
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -9920,21 +9916,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0, b: 0, a: 0}
-  Name: Pacific Ocean
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 856804997}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 856804997}
 --- !u!64 &856804996
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10029,21 +10025,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.088797376, g: 0.5773585, b: 0.042484805, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 858211813}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 858211813}
 --- !u!64 &858211816
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10088,21 +10084,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5622641, g: 0.12200062, b: 0.12200062, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 864515047}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 864515047}
 --- !u!64 &864515050
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10147,21 +10143,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.60188675, g: 0.6622676, b: 1, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 869829135}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 869829135}
 --- !u!64 &869829138
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10206,21 +10202,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.36336768, g: 0.6528301, b: 0.56514055, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 880370478}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 880370478}
 --- !u!64 &880370481
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10265,21 +10261,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.2679382, g: 0.24444991, b: 0.5245282, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 890393507}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 890393507}
 --- !u!64 &890393510
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10324,21 +10320,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5264151, g: 0.83526516, b: 1, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 895075872}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 895075872}
 --- !u!64 &895075875
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10546,21 +10542,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.27367595, g: 0, b: 0.5169811, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 926792546}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 926792546}
 --- !u!64 &926792549
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10605,21 +10601,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.554717, g: 0.12036305, b: 0.12036305, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 950006580}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 950006580}
 --- !u!64 &950006583
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10664,21 +10660,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.40738946, g: 0, b: 0.7584905, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 955455386}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 955455386}
 --- !u!64 &955455389
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10723,21 +10719,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.488174, g: 0.6679245, b: 0.20037729, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 966926843}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 966926843}
 --- !u!64 &966926846
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10857,21 +10853,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.8037735, g: 0.53250724, b: 0, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 982150215}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 982150215}
 --- !u!64 &982150218
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10916,21 +10912,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.2491206, b: 0.7132075, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1010806193}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1010806193}
 --- !u!64 &1010806196
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -10975,21 +10971,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.18637769, g: 0, b: 0.78867924, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1020040388}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1020040388}
 --- !u!64 &1020040391
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11168,21 +11164,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.13333336, g: 0.33333334, b: 0.14380927, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1043533430}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1043533430}
 --- !u!64 &1043533433
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11227,21 +11223,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.24417299, g: 0.645283, b: 0, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1058937904}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1058937904}
 --- !u!64 &1058937907
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11357,21 +11353,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 1, g: 0.8056521, b: 0.435849, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1075222721}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1075222721}
 --- !u!64 &1075222724
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11416,21 +11412,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.3631061, g: 0.7433963, b: 0.31278744, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1079344441}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1079344441}
 --- !u!64 &1079344444
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11475,21 +11471,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.1191793, g: 0, b: 0.5169811, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1091305733}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1091305733}
 --- !u!64 &1091305736
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11668,21 +11664,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.38294762, g: 0.5486247, b: 0.5849056, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1102260470}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1102260470}
 --- !u!64 &1102260473
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11727,21 +11723,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.57924527, g: 0.9028779, b: 1, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1109830236}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1109830236}
 --- !u!64 &1109830239
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11786,21 +11782,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.48418614, g: 0.690566, b: 0.23322885, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1134757381}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1134757381}
 --- !u!64 &1134757384
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11845,21 +11841,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.28657436, b: 0.5245282, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1142674266}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1142674266}
 --- !u!64 &1142674269
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11904,21 +11900,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.7735849, g: 0.7730384, b: 0.37803486, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1155425747}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1155425747}
 --- !u!64 &1155425750
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -11963,21 +11959,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.6075471, g: 0.30428836, b: 0, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1157919902}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1157919902}
 --- !u!64 &1157919905
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12022,21 +12018,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5924529, g: 0.3996097, b: 0.26269135, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1162562643}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1162562643}
 --- !u!64 &1162562646
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12150,21 +12146,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.33333334, g: 0.20214003, b: 0.13333336, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1172769026}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1172769026}
 --- !u!64 &1172769029
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12220,21 +12216,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5773585, g: 0.1122036, b: 0.1122036, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1185482774}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1185482774}
 --- !u!64 &1185482777
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12279,21 +12275,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.041809797, b: 0.5471698, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1185817019}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1185817019}
 --- !u!64 &1185817022
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12363,21 +12359,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0, b: 0, a: 0}
-  Name: Indian  Ocean
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1200562877}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1200562877}
 --- !u!64 &1200562876
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12472,21 +12468,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.18301322, g: 0, b: 0.5622641, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1201452333}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1201452333}
 --- !u!64 &1201452336
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12531,21 +12527,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.63529414, g: 0.38039216, b: 0, a: 1}
-  Name: United Arab Emirates
-  Population: 7.874
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 117.06
-  meshRenderer: {fileID: 1230694297}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1230694297}
 --- !u!64 &1230694300
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12614,21 +12610,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.09493055, g: 0.37402466, b: 0.7509433, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1249128260}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1249128260}
 --- !u!64 &1249128263
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12673,21 +12669,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.55334866, g: 0.6830188, b: 0, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1256115162}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1256115162}
 --- !u!64 &1256115165
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12737,21 +12733,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 1, g: 0.9819288, b: 0.49622637, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1258716665}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1258716665}
 --- !u!64 &1258716668
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12882,21 +12878,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.13333334, g: 0.33333334, b: 0.33333334, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1275406724}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1275406724}
 --- !u!64 &1275406727
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13303,21 +13299,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0, b: 0, a: 0}
-  Name: Southern Ocean
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1307180184}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1307180184}
 --- !u!64 &1307180183
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13412,21 +13408,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.342782, g: 0.8113208, b: 0.09031678, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1308342072}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1308342072}
 --- !u!64 &1308342075
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13471,21 +13467,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.79003704, g: 1, b: 0.5566037, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1318793383}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1318793383}
 --- !u!64 &1318793386
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -13611,21 +13607,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.13333336, g: 0.19680347, b: 0.33333334, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1363218782}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1363218782}
 --- !u!64 &1363218785
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14258,21 +14254,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.108145185, g: 0.45570663, b: 0.690566, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1381868086}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1381868086}
 --- !u!64 &1381868089
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14317,21 +14313,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.16638178, b: 0.4943396, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1386909736}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1386909736}
 --- !u!64 &1386909739
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14376,21 +14372,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.3857886, g: 0.690566, b: 0.11335703, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1389129093}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1389129093}
 --- !u!64 &1389129096
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14435,21 +14431,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.80784315, g: 0.0627451, b: 0, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1393801025}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1393801025}
 --- !u!64 &1393801028
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14494,21 +14490,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.20309715, g: 0.6603774, b: 0.43672425, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1404050096}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1404050096}
 --- !u!64 &1404050099
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14553,21 +14549,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.6603774, g: 0.22303307, b: 0.22303307, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1408046058}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1408046058}
 --- !u!64 &1408046061
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14612,21 +14608,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.18917046, g: 0.50994444, b: 0.6150943, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1426389644}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1426389644}
 --- !u!64 &1426389647
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14880,21 +14876,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.33648273, g: 0.6679245, b: 0.3421319, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1445931868}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1445931868}
 --- !u!64 &1445931871
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14939,21 +14935,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.18284221, g: 0.13333336, b: 0.33333334, a: 1}
-  Name: Germany
-  Population: 2323785
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 2343
-  meshRenderer: {fileID: 1447393639}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1447393639}
 --- !u!64 &1447393642
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14998,21 +14994,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.21166416, g: 0.33333334, b: 0.13333336, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1448036462}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1448036462}
 --- !u!64 &1448036465
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15094,21 +15090,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.02745098, g: 0.69411767, b: 0, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1458648235}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1458648235}
 --- !u!64 &1458648238
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15555,21 +15551,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.6754716, g: 0.059900276, b: 0.059900276, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1485071871}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1485071871}
 --- !u!64 &1485071874
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15614,21 +15610,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.60428697, g: 0, b: 0.645283, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1485270501}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1485270501}
 --- !u!64 &1485270504
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15690,21 +15686,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 1, g: 0.54905653, b: 0.83514, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1497157011}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1497157011}
 --- !u!64 &1497157014
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -15836,21 +15832,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.4943396, g: 0.025183298, b: 0.28206456, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1514083268}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1514083268}
 --- !u!64 &1514083271
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16154,21 +16150,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.75317985, g: 0.4660377, b: 1, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1556661569}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1556661569}
 --- !u!64 &1556661572
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16213,21 +16209,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.26666668, g: 0.31146738, b: 0.53333336, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1580949818}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1580949818}
 --- !u!64 &1580949821
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16272,21 +16268,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.13333334, g: 0.33333334, b: 0.33333334, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1586027986}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1586027986}
 --- !u!64 &1586027989
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16367,21 +16363,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.26495546, g: 0.7509433, b: 0.48881763, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1589601077}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1589601077}
 --- !u!64 &1589601080
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16554,21 +16550,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.6377357, g: 0.5089853, b: 0.5089853, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1622891349}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1622891349}
 --- !u!64 &1622891352
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16623,21 +16619,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.4101344, g: 0, b: 0.4188679, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1628536176}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1628536176}
 --- !u!64 &1628536179
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16707,21 +16703,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0, b: 0, a: 0}
-  Name: Arctic Ocean
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1643315713}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1643315713}
 --- !u!64 &1643315712
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16816,21 +16812,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.86415094, g: 0.48751155, b: 0.8086239, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1651114075}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1651114075}
 --- !u!64 &1651114078
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16875,21 +16871,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5999999, g: 0.23433957, b: 0.23433957, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1656262230}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1656262230}
 --- !u!64 &1656262233
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16934,21 +16930,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.03146863, g: 1, b: 0, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1662077118}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1662077118}
 --- !u!64 &1662077121
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -16988,21 +16984,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5018867, g: 0.3172627, b: 0.16571726, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1663542358}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1663542358}
 --- !u!64 &1663542356
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17052,21 +17048,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.8178389, g: 0.47358483, b: 1, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1663556753}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1663556753}
 --- !u!64 &1663556756
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17111,21 +17107,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.99215686, b: 0.9254902, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1667781501}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1667781501}
 --- !u!64 &1667781504
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17170,21 +17166,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.62869483, g: 0.47358483, b: 1, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1667856310}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1667856310}
 --- !u!64 &1667856313
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17254,21 +17250,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0, b: 0, a: 0}
-  Name: Atlantic Ocean
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1677478990}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1677478990}
 --- !u!64 &1677478989
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17363,21 +17359,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.4415095, g: 0.2090922, b: 0.2090922, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1682981585}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1682981585}
 --- !u!64 &1682981588
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17422,21 +17418,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.46782163, g: 0.338163, b: 0.6075471, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1685120724}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1685120724}
 --- !u!64 &1685120727
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17481,21 +17477,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.3410274, g: 0.6666667, b: 0.12549019, a: 1}
-  Name: Russia
-  Population: 2
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 2
-  meshRenderer: {fileID: 1713655971}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1713655971}
 --- !u!64 &1713655974
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17540,21 +17536,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.89315957, g: 0.90188676, b: 0.54964036, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1713723739}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1713723739}
 --- !u!64 &1713723742
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17844,21 +17840,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.6301887, g: 0.60758287, b: 0, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1734960487}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1734960487}
 --- !u!64 &1734960490
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18074,21 +18070,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.381132, g: 0.019416127, b: 0.019416127, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1759886929}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1759886929}
 --- !u!64 &1759886932
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18133,21 +18129,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.5773585, b: 0.23042533, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1767469784}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1767469784}
 --- !u!64 &1767469787
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18192,21 +18188,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.7283019, g: 0.66092575, b: 0, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1768170392}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1768170392}
 --- !u!64 &1768170395
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18371,21 +18367,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.16828048, g: 0.19615023, b: 0.5471698, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1780526994}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1780526994}
 --- !u!64 &1780526997
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18430,21 +18426,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5169811, g: 0, b: 0.2362891, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1791864072}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1791864072}
 --- !u!64 &1791864075
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18715,21 +18711,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.7283019, g: 0.46013483, b: 0, a: 1}
-  Name: China
-  Population: 32312364
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 343
-  meshRenderer: {fileID: 1813174488}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1813174488}
 --- !u!64 &1813174491
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -18799,9 +18795,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc095a748212f80438c24eeb6b18aea9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EarthRenderer: {fileID: 666067083}
-  Clouds: {fileID: 0}
-  Glow: {fileID: 0}
+  earthRenderer: {fileID: 0}
+  clouds: {fileID: 0}
+  glow: {fileID: 0}
   countries:
   - {fileID: 1307180182}
   - {fileID: 1643315711}
@@ -18980,20 +18976,19 @@ MonoBehaviour:
   - {fileID: 1713723741}
   - {fileID: 281442758}
   - {fileID: 538360858}
-  Earth: {fileID: 2100000, guid: fa8aa7b7bbba53043b26744d30101a84, type: 2}
-  Population: {fileID: 2100000, guid: 6e999b82bfd2fe74ebf075d0fadcd5cd, type: 2}
-  Science: {fileID: 2100000, guid: c5a0cb85d34ff6d4e8ee21bcce7b742d, type: 2}
-  Transport: {fileID: 2100000, guid: c29bfdba2e178144b99839d1cc880401, type: 2}
-  Disaster: {fileID: 2100000, guid: a3f4bd26599627e4390f282eaa2352f4, type: 2}
-  Climat: {fileID: 2100000, guid: 70d88a21fdc168544a70d11a013c8f85, type: 2}
-  EarthAugust: {fileID: 2100000, guid: 3086e454026b19a439d93adc6651c96d, type: 2}
-  EarthJanuary: {fileID: 2100000, guid: fffa50615154d414384f016f1ba5ceee, type: 2}
-  EarthDetails: {fileID: 2100000, guid: 9982a643d3ca6ff4e9b35ed45e721177, type: 2}
-  EarthBorders: {fileID: 2100000, guid: 91c4f43c669285a4da6efccba2cb9315, type: 2}
-  EarthNight: {fileID: 2100000, guid: 8664f9c04a803cf499edb7a289bc4e32, type: 2}
-  EarthDay: {fileID: 2100000, guid: d8907f43f6638df469e90a5aad6a8d68, type: 2}
-  OceanFlow: {fileID: 2100000, guid: 48e3c9895c569fd48bbfb21732f8f98b, type: 2}
-  SeaLevelRise: {fileID: 2100000, guid: a799b53bce827ff40b45ecf57d74d010, type: 2}
+  earth: {fileID: 0}
+  population: {fileID: 0}
+  science: {fileID: 0}
+  transport: {fileID: 0}
+  disaster: {fileID: 0}
+  climate: {fileID: 0}
+  earthAugust: {fileID: 0}
+  earthJanuary: {fileID: 0}
+  earthDetails: {fileID: 0}
+  earthBorders: {fileID: 0}
+  earthNight: {fileID: 0}
+  earthDay: {fileID: 0}
+  oceanFlow: {fileID: 0}
   WorldLayersTextures:
   - {fileID: 2800000, guid: fa27693c55271b34d8c3b742f5a48873, type: 3}
   - {fileID: 2800000, guid: bfbbbda1aa134254cbe9b818b9db6cb3, type: 3}
@@ -19189,21 +19184,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.2520256, g: 0.78113204, b: 0.78113204, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1846924663}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1846924663}
 --- !u!64 &1846924666
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19417,21 +19412,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.04255602, g: 0.5245282, b: 0.41125906, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1890520870}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1890520870}
 --- !u!64 &1890520873
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19476,21 +19471,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.61698115, g: 1, b: 0.79222506, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1891546335}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1891546335}
 --- !u!64 &1891546338
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19535,21 +19530,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.8113208, g: 0.32912067, b: 0.54088247, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1894563508}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1894563508}
 --- !u!64 &1894563511
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19728,21 +19723,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.7283019, g: 0.6068388, b: 0.21299385, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1903078230}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1903078230}
 --- !u!64 &1903078233
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -19787,21 +19782,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.33657652, g: 0.6301887, b: 0.15100746, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1907774422}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1907774422}
 --- !u!64 &1907774425
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20012,21 +20007,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.6075471, g: 0.16392305, b: 0.16392305, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1923369353}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1923369353}
 --- !u!64 &1923369356
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20071,21 +20066,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5686275, g: 0, b: 0.070572756, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1930401643}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1930401643}
 --- !u!64 &1930401646
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20130,21 +20125,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.5471698, b: 0.41757092, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1942154983}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1942154983}
 --- !u!64 &1942154986
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20189,21 +20184,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.13333334, g: 0.33333334, b: 0.33333334, a: 0}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1942679099}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1942679099}
 --- !u!64 &1942679102
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20248,21 +20243,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.6109057, g: 0.57924527, b: 1, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1950169753}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1950169753}
 --- !u!64 &1950169756
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20307,21 +20302,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.12194369, g: 0.16688135, b: 0.6528301, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 1959816784}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 1959816784}
 --- !u!64 &1959816787
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20371,21 +20366,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.6528301, g: 0.15643285, b: 0.5404925, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 2002707897}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 2002707897}
 --- !u!64 &2002707900
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20593,21 +20588,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.38756168, b: 0.4339623, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 2060721666}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 2060721666}
 --- !u!64 &2060721669
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20652,21 +20647,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.33333334, g: 0.13333336, b: 0.27551666, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 2061849215}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 2061849215}
 --- !u!64 &2061849218
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20711,21 +20706,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.066623695, b: 0.7584905, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 2065964082}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 2065964082}
 --- !u!64 &2065964085
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20765,21 +20760,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.6554582, g: 0.17817727, b: 0.6603774, a: 1}
-  Name: Saudi Arabia
-  Population: 3432
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 3442367
-  meshRenderer: {fileID: 2067088591}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 2067088591}
 --- !u!64 &2067088589
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20864,21 +20859,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5094309, g: 0.86415094, b: 0.40272692, a: 1}
-  Name: Canada
-  Population: 420
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 1
-  meshRenderer: {fileID: 2087349583}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 2087349583}
 --- !u!64 &2087349586
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20923,21 +20918,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.5471698, b: 0.5234358, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 2088340190}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 2088340190}
 --- !u!64 &2088340193
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20982,21 +20977,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.13333336, g: 0.33333334, b: 0.18993211, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 2089775490}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 2089775490}
 --- !u!64 &2089775493
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21041,21 +21036,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5264151, g: 0.95454115, b: 1, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 2091907753}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 2091907753}
 --- !u!64 &2091907756
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21100,21 +21095,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.23559268, g: 0.6150943, b: 0.48019016, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 2094395527}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 2094395527}
 --- !u!64 &2094395530
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21159,21 +21154,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5264151, g: 0.9972506, b: 1, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 2101692718}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 2101692718}
 --- !u!64 &2101692721
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21229,21 +21224,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.9758005, b: 1, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 2105713487}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 2105713487}
 --- !u!64 &2105713490
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21288,21 +21283,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.60784316, g: 0.20784312, b: 0.5550424, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 2107234649}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 2107234649}
 --- !u!64 &2107234652
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21384,21 +21379,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.87169814, g: 0.82319707, b: 0, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 2111043200}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 2111043200}
 --- !u!64 &2111043203
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21443,21 +21438,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0.5411765, g: 0.8784314, b: 0, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 2117655414}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 2117655414}
 --- !u!64 &2117655417
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -21544,21 +21539,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0790fca07966c184781ffedacaffb8c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ColorCountry: {r: 0, g: 0.48613954, b: 0.6528301, a: 1}
-  Name: 
-  Population: 0
-  Size: 
-  Language: 
-  Capital: 
-  Government: 
-  GDP: 
-  Currency: 
-  Wealth: 0
-  meshRenderer: {fileID: 2120702549}
+  colorCountry: {r: 0, g: 0, b: 0, a: 0}
+  countryName: 
+  population: 
+  size: 
+  language: 
+  capital: 
+  governmentType: 
+  countryGdp: 
+  currency: 
+  wealth: 0
   science: 0
   logistics: 0
   disaster: 0
   climate: 
+  meshRenderer: {fileID: 2120702549}
 --- !u!64 &2120702552
 MeshCollider:
   m_ObjectHideFlags: 0
