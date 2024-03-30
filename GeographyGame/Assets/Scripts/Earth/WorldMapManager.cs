@@ -302,7 +302,7 @@ public class WorldMapManager : MonoBehaviour
 
 
                 UnitPoint.transform.position = hit.point;
-                UnitPoint.transform.SetParent(FindObjectOfType<UnitEarth>().transform);
+                UnitPoint.transform.SetParent(FindObjectOfType<UnitPoint>().transform);
             }
 
         }
